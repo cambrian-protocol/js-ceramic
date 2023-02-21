@@ -9,7 +9,7 @@ import type { Provider } from '@ethersproject/providers'
 import { Subscription, mergeMap, catchError } from 'rxjs'
 
 import type { LocalIndexApi } from '../indexing/local-index-api.js'
-import { JobQueue } from '../state-management/job-queue.js'
+import { JobQueue, JobState } from '../state-management/job-queue.js'
 
 import {
   REBUILD_ANCHOR_JOB,
@@ -145,7 +145,7 @@ export class SyncApi implements ISyncApi {
   async _initStateTable(): Promise<StoredState> {
     const exists = await this.dataSource.schema.hasTable(STATE_TABLE_NAME)
     if (!exists) {
-      await this.dataSource.schema.createTable(STATE_TABLE_NAME, function (table) {
+      await this.dataSource.schema.createTable(STATE_TABLE_NAME, function(table) {
         table.string('processed_block_hash', 1024)
         table.integer('processed_block_number')
       })
@@ -276,5 +276,12 @@ export class SyncApi implements ISyncApi {
 
   get enabled() {
     return this.syncConfig.on
+  }
+
+  async getAllSyncs(): Promise<Array<JobState<JobData>>> {
+    if (!this.syncConfig.on) {
+      return undefined
+    }
+    return await this.jobQueue.getJobStates()
   }
 }

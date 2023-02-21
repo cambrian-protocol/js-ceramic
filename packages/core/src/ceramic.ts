@@ -55,6 +55,7 @@ import { AnchorResumingService } from './state-management/anchor-resuming-servic
 import { SyncApi } from './sync/sync-api.js'
 import { ProvidersCache } from './providers-cache.js'
 import crypto from 'crypto'
+import { SyncJobData } from './sync/interfaces.js'
 
 const DEFAULT_CACHE_LIMIT = 500 // number of streams stored in the cache
 const DEFAULT_QPS_LIMIT = 10 // Max number of pubsub query messages that can be published per second without rate limiting
@@ -390,8 +391,8 @@ export class Ceramic implements CeramicApi {
       default: {
         throw new Error(
           "Unrecognized Ceramic network name: '" +
-            networkName +
-            "'. Supported networks are: 'mainnet', 'testnet-clay', 'dev-unstable', 'local', 'inmemory'"
+          networkName +
+          "'. Supported networks are: 'mainnet', 'testnet-clay', 'dev-unstable', 'local', 'inmemory'"
         )
       }
     }
@@ -416,14 +417,14 @@ export class Ceramic implements CeramicApi {
     if (usableChains.length === 0) {
       throw new Error(
         "No usable chainId for anchoring was found.  The ceramic network '" +
-          networkName +
-          "' supports the chains: ['" +
-          networkChains.join("', '") +
-          "'], but the configured anchor service '" +
-          anchorService.url +
-          "' only supports the chains: ['" +
-          anchorServiceChains.join("', '") +
-          "']"
+        networkName +
+        "' supports the chains: ['" +
+        networkChains.join("', '") +
+        "'], but the configured anchor service '" +
+        anchorService.url +
+        "' only supports the chains: ['" +
+        anchorServiceChains.join("', '") +
+        "']"
       )
     }
 
@@ -592,8 +593,7 @@ export class Ceramic implements CeramicApi {
         await this.context.anchorService.init()
         await this._loadSupportedChains()
         this._logger.imp(
-          `Connected to anchor service '${
-            this.context.anchorService.url
+          `Connected to anchor service '${this.context.anchorService.url
           }' with supported anchor chains ['${this._supportedChains.join("','")}']`
         )
       }
@@ -601,6 +601,7 @@ export class Ceramic implements CeramicApi {
       const chainId = this._supportedChains ? this._supportedChains[0] : null
       await this._anchorValidator.init(chainId)
 
+      console.log('syncApi.enabled', this.syncApi.enabled)
       if (this.syncApi.enabled) {
         const provider = await this.providersCache.getProvider(chainId)
         await this.syncApi.init(provider)
@@ -691,12 +692,29 @@ export class Ceramic implements CeramicApi {
       chainId: this._anchorValidator.chainId,
     }
     const ipfsStatus = await this.dispatcher.ipfsNodeStatus()
+    // If ComposeDB has not been enabled indexedModels returns undefined
+    const indexedModels = this.repository.index.indexedModels()?.map((stream) => stream.toString())
+    const syncs = (await this.syncApi.getAllSyncs())?.map((sync) => {
+      console.log(sync);
+      let data = sync.data as SyncJobData;
+      return ({
+        kind: sync.name,
+        models: data.models,
+        state: sync.state,
+        fromBlock: data.fromBlock,
+        toBlock: data.toBlock,
+      })
+    })
     return {
       runId: this._runId,
       uptimeMs: new Date().getTime() - this._startTime.getTime(),
       network: this._networkOptions.name,
       anchor,
       ipfs: ipfsStatus,
+      composeDB: {
+        indexedModels: indexedModels,
+        syncs: syncs,
+      }
     }
   }
 
@@ -870,14 +888,12 @@ export class Ceramic implements CeramicApi {
       } catch (e) {
         if (CommitID.isInstance(streamId)) {
           this._logger.warn(
-            `Error loading stream ${streamId.baseID.toString()} at commit ${streamId.commit.toString()} at time ${
-              query.atTime
+            `Error loading stream ${streamId.baseID.toString()} at commit ${streamId.commit.toString()} at time ${query.atTime
             } as part of a multiQuery request: ${e.toString()}`
           )
         } else {
           this._logger.warn(
-            `Error loading stream ${streamId.toString()} at time ${
-              query.atTime
+            `Error loading stream ${streamId.toString()} at time ${query.atTime
             } as part of a multiQuery request: ${e.toString()}`
           )
         }
@@ -988,3 +1004,4 @@ export class Ceramic implements CeramicApi {
     this._logger.imp('Ceramic instance closed successfully')
   }
 }
+

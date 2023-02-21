@@ -28,6 +28,8 @@ export interface NodeStatusResponse {
    * Information about the connected IPFS node.
    */
   ipfs: IpfsNodeStatus
+
+  composeDB: ComposeDBStatus
 }
 
 /**
@@ -61,4 +63,17 @@ export interface AnchorNodeStatus {
    * The ethereum chainId used for anchors.
    */
   chainId: string
+}
+
+export interface ComposeDBStatus {
+  indexedModels: Array<string>
+  syncs: Array<SyncStatus>
+}
+
+export interface SyncStatus {
+  kind: string
+  models: Array<string>
+  state: string
+  fromBlock: number
+  toBlock: number
 }

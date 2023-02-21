@@ -10,11 +10,19 @@ export type Job<T extends Record<any, any>> = {
   options?: SendOptions
 }
 
+export type State = 'created' | 'retry' | 'active' | 'completed' | 'expired' | 'cancelled' | 'failed';
+export type JobState<T extends Record<any, any>> = {
+  name: string
+  data: T,
+  state: State,
+}
+
 export interface IJobQueue<T extends Record<any, any>> {
   init: (workersByJob: Record<string, Worker<T>>) => Promise<void>
   addJob: (job: Job<T>) => Promise<void>
   addJobs: (jobs: Job<T>[]) => Promise<void>
   updateJob: (jobId: string, data: T) => Promise<void>
+  getJobStates(): Promise<Array<JobState<T>>>
   stop: () => Promise<void>
 }
 
@@ -23,7 +31,7 @@ export type Worker<T> = {
 }
 
 class PgWrapper implements PgBoss.Db {
-  constructor(private readonly db: Pg.Client) {}
+  constructor(private readonly db: Pg.Client) { }
 
   executeSql(text: string, values: any[]): Promise<{ rows: any[]; rowCount: number }> {
     return this.db.query(text, values)
@@ -63,6 +71,7 @@ export class JobQueue<T extends Record<any, any>> implements IJobQueue<T> {
    * Starts the job queue and adds workers for each job
    */
   async init(workersByJob: Record<string, Worker<T>>, resumeActive = true): Promise<void> {
+    console.log('init job queue')
     this.jobs = Object.keys(workersByJob)
 
     await this.dbConnection.query('CREATE EXTENSION IF NOT EXISTS "pgcrypto"')
@@ -174,5 +183,15 @@ export class JobQueue<T extends Record<any, any>> implements IJobQueue<T> {
         })
       )
     )
+  }
+
+  async getJobStates(): Promise<Array<JobState<T>>> {
+    const result = await this.dbConnection.query(
+      `SELECT name,state,data FROM pgboss.job WHERE name IN (${this.jobs
+        .map((jobName) => `'${jobName}'`)
+        .join(', ')})`
+    )
+
+    return result.rows.map(({ name, state, data }) => ({ name, data, state }))
   }
 }
