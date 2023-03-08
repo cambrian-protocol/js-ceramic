@@ -47,7 +47,7 @@
     "@cambrianprotocol/http-client": "^2.20.0",
     "@cambrianprotocol/ipfs-daemon": "^2.16.0",
     "@cambrianprotocol/logger": "^2.5.0",
-    "@cambrianprotocol/observability": "^1.0.6",
+    "@ceramicnetwork/observability": "^1.0.6",
     "@cambrianprotocol/stream-tile": "^2.19.0",
     "@cambrianprotocol/streamid": "^2.14.0",
     "@stablelib/random": "^1.0.1",
