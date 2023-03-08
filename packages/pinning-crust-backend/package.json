@@ -1,6 +1,6 @@
 {
   "name": "@cambrianprotocol/pinning-crust-backend",
-  "version": "2.19.0-rc.0",
+  "version": "2.20.0-rc.0",
   "description": "Crust Pinning backend",
   "keywords": [
     "ceramic",
@@ -41,7 +41,7 @@
     "uint8arrays": "^4.0.3"
   },
   "devDependencies": {
-    "@cambrianprotocol/common": "2.25.0-rc.0",
+    "@cambrianprotocol/common": "^2.26.0-rc.0",
     "multiformats": "^11.0.1"
   },
   "publishConfig": {
