@@ -5,13 +5,13 @@ import { createIPFS } from '@ceramicnetwork/ipfs-daemon'
 import { ModelInstanceDocument } from '@ceramicnetwork/stream-model-instance'
 import { createCeramic } from '../create-ceramic.js'
 import { Ceramic } from '@cambrianprotocol/core'
-import { CeramicDaemon, DaemonConfig } from '@ceramicnetwork/cli'
+import { CeramicDaemon, DaemonConfig } from '@cambrianprotocol/cli'
 import { CeramicClient } from '@ceramicnetwork/http-client'
 import { Model, ModelDefinition } from '@ceramicnetwork/stream-model'
 import tmp from 'tmp-promise'
 import * as fs from 'fs/promises'
 import { DID } from 'dids'
-import { makeDID } from '@ceramicnetwork/cli/lib/__tests__/make-did.js'
+import { makeDID } from '@cambrianprotocol/cli/lib/__tests__/make-did.js'
 
 const CONTENT0 = { myData: 0 }
 const CONTENT1 = { myData: 1 }

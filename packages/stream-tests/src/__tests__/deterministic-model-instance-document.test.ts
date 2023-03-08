@@ -8,7 +8,7 @@ import {
 } from '@ceramicnetwork/stream-model-instance'
 import { createCeramic } from '../create-ceramic.js'
 import { Ceramic } from '@cambrianprotocol/core'
-import { CeramicDaemon, DaemonConfig } from '@ceramicnetwork/cli'
+import { CeramicDaemon, DaemonConfig } from '@cambrianprotocol/cli'
 import { CeramicClient } from '@ceramicnetwork/http-client'
 import { Model, ModelDefinition } from '@ceramicnetwork/stream-model'
 

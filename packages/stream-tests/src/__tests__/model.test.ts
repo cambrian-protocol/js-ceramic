@@ -5,7 +5,7 @@ import { createIPFS } from '@ceramicnetwork/ipfs-daemon'
 import { Model, ModelDefinition, parseModelVersion } from '@ceramicnetwork/stream-model'
 import { createCeramic } from '../create-ceramic.js'
 import { Ceramic } from '@cambrianprotocol/core'
-import { CeramicDaemon, DaemonConfig } from '@ceramicnetwork/cli'
+import { CeramicDaemon, DaemonConfig } from '@cambrianprotocol/cli'
 import { CeramicClient } from '@ceramicnetwork/http-client'
 
 const MODEL_DEFINITION: ModelDefinition = {
