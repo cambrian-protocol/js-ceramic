@@ -1,5 +1,5 @@
 {
-  "name": "@ceramicnetwork/pinning-powergate-backend",
+  "name": "@cambrian-ceramicnetwork/pinning-powergate-backend",
   "version": "2.15.0",
   "description": "Powergate Pinning backend",
   "keywords": [

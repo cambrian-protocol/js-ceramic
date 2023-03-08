@@ -1,5 +1,5 @@
 {
-  "name": "@ceramicnetwork/http-client",
+  "name": "@cambrian-ceramicnetwork/http-client",
   "version": "2.20.0",
   "description": "An http client for the ceramic network",
   "keywords": [

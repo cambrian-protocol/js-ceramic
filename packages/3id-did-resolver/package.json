@@ -1,5 +1,5 @@
 {
-  "name": "@ceramicnetwork/3id-did-resolver",
+  "name": "@cambrian-ceramicnetwork/3id-did-resolver",
   "version": "2.16.0",
   "description": "DID Resolver for the 3ID method",
   "keywords": [

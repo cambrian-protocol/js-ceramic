@@ -1,5 +1,5 @@
 {
-  "name": "@ceramicnetwork/anchor-utils",
+  "name": "@cambrian-ceramicnetwork/anchor-utils",
   "version": "1.6.0",
   "description": "Ceramic anchor contract constants, interface and utilities",
   "keywords": [

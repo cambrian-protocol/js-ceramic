@@ -2,7 +2,7 @@
   "name": "root",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ceramicnetwork/js-ceramic.git"
+    "url": "git+https://github.com/cambrian-protocol/js-ceramic.git"
   },
   "bugs": {
     "url": "https://github.com/ceramicnetwork/js-ceramic/issues"

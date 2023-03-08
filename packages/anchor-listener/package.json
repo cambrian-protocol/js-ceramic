@@ -1,5 +1,5 @@
 {
-  "name": "@ceramicnetwork/anchor-listener",
+  "name": "@cambrian-ceramicnetwork/anchor-listener",
   "version": "1.8.0",
   "description": "Ceramic anchor events listener",
   "keywords": [

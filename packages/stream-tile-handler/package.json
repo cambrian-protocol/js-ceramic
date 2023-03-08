@@ -1,5 +1,5 @@
 {
-  "name": "@ceramicnetwork/stream-tile-handler",
+  "name": "@cambrian-ceramicnetwork/stream-tile-handler",
   "version": "2.18.0",
   "description": "Ceramic Tile Document stream handler",
   "keywords": [

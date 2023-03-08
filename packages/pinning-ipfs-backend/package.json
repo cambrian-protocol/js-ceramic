@@ -1,5 +1,5 @@
 {
-  "name": "@ceramicnetwork/pinning-ipfs-backend",
+  "name": "@cambrian-ceramicnetwork/pinning-ipfs-backend",
   "version": "2.15.0",
   "description": "IPFS Pinning backend",
   "keywords": [

@@ -1,5 +1,5 @@
 {
-  "name": "@ceramicnetwork/blockchain-utils-validation",
+  "name": "@cambrian-ceramicnetwork/blockchain-utils-validation",
   "version": "2.15.0",
   "description": "Blockchain utils for validation of linked blockchain accounts",
   "keywords": [

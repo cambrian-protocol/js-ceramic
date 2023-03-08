@@ -1,5 +1,5 @@
 {
-  "name": "@ceramicnetwork/cli",
+  "name": "@cambrian-ceramicnetwork/cli",
   "version": "2.28.0",
   "description": "Typescript implementation of the Ceramic CLI",
   "keywords": [

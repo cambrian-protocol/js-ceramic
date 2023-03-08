@@ -1,5 +1,5 @@
 {
-  "name": "@ceramicnetwork/stream-model-handler",
+  "name": "@cambrian-ceramicnetwork/stream-model-handler",
   "version": "1.5.0",
   "description": "Ceramic Model stream handler",
   "keywords": [

@@ -1,5 +1,5 @@
 {
-  "name": "@ceramicnetwork/stream-handler-common",
+  "name": "@cambrian-ceramicnetwork/stream-handler-common",
   "version": "1.13.0",
   "description": "Ceramic stream handler common types and utilities",
   "keywords": [

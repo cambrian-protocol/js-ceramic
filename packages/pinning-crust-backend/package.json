@@ -1,5 +1,5 @@
 {
-  "name": "@ceramicnetwork/pinning-crust-backend",
+  "name": "@cambrian-ceramicnetwork/pinning-crust-backend",
   "version": "2.15.0",
   "description": "Crust Pinning backend",
   "keywords": [

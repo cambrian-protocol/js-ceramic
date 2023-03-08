@@ -1,5 +1,5 @@
 {
-  "name": "@ceramicnetwork/logger",
+  "name": "@cambrian-ceramicnetwork/logger",
   "version": "2.5.0",
   "description": "Ceramic file logging utilities",
   "keywords": [
