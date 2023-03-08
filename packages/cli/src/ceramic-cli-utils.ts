@@ -5,7 +5,7 @@ import * as u8a from 'uint8arrays'
 import * as fs from 'fs/promises'
 
 import { Ed25519Provider } from 'key-did-provider-ed25519'
-import { CeramicClient } from '@ceramicnetwork/http-client'
+import { CeramicClient } from '@cambrianprotocol/http-client'
 import {
   AnchorServiceAuthMethods,
   CeramicApi,
@@ -13,13 +13,13 @@ import {
   Networks,
   StreamUtils,
 } from '@cambrianprotocol/common'
-import { StreamID, CommitID } from '@ceramicnetwork/streamid'
+import { StreamID, CommitID } from '@cambrianprotocol/streamid'
 
 import { CeramicDaemon } from './ceramic-daemon.js'
 import { DaemonConfig, IpfsMode, StateStoreMode, validateConfig } from './daemon-config.js'
-import { TileDocument, TileMetadataArgs } from '@ceramicnetwork/stream-tile'
+import { TileDocument, TileMetadataArgs } from '@cambrianprotocol/stream-tile'
 
-import * as ThreeIdResolver from '@ceramicnetwork/3id-did-resolver'
+import * as ThreeIdResolver from '@cambrianprotocol/3id-did-resolver'
 import * as KeyDidResolver from 'key-did-resolver'
 import { Resolver } from 'did-resolver'
 import { DID } from 'dids'

@@ -37,18 +37,17 @@ export class SignatureUtils {
     streamId: StreamID
   ): Promise<void> {
     try {
-      const zkTruth = undefined
-      // const cacao = await this._verifyCapabilityAuthz(commitData, streamId, model)
+      const cacao = await this._verifyCapabilityAuthz(commitData, streamId, model)
 
-      // const atTime = commitData.timestamp ? new Date(commitData.timestamp * 1000) : undefined
-      // await did.verifyJWS(commitData.envelope, {
-      //   atTime: atTime,
-      //   issuer: controller,
-      //   disableTimecheck: commitData.disableTimecheck,
-      //   capability: cacao,
-      //   revocationPhaseOutSecs: DEFAULT_CACAO_REVOCATION_PHASE_OUT,
-      //   verifiers: verifiersCACAO,
-      // })
+      const atTime = commitData.timestamp ? new Date(commitData.timestamp * 1000) : undefined
+      await did.verifyJWS(commitData.envelope, {
+        atTime: atTime,
+        issuer: controller,
+        disableTimecheck: true, //zkTruth
+        capability: cacao,
+        revocationPhaseOutSecs: DEFAULT_CACAO_REVOCATION_PHASE_OUT,
+        verifiers: verifiersCACAO,
+      })
     } catch (e: any) {
       const original = e.message ? e.message : String(e)
       throw new Error(`Can not verify signature for commit ${commitData.cid}: ${original}`)
