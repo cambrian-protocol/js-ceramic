@@ -1,5 +1,5 @@
 import express from 'express'
-import type { DiagnosticsLogger, IpfsApi } from '@ceramicnetwork/common'
+import type { DiagnosticsLogger, IpfsApi } from '@cambrianprotocol/common'
 
 export class HealthcheckServer {
   constructor(

@@ -1,6 +1,6 @@
 import { type DatabaseIndexApi, PostgresIndexApi, SqliteIndexApi } from './database-index-api.js'
 import knex from 'knex'
-import { DiagnosticsLogger, Networks } from '@ceramicnetwork/common'
+import { DiagnosticsLogger, Networks } from '@cambrianprotocol/common'
 import * as fs from 'fs'
 
 export type IndexingConfig = {

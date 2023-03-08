@@ -1,5 +1,5 @@
 import { jest, test, expect } from '@jest/globals'
-import { IpfsApi, LoggerProvider, TestUtils } from '@ceramicnetwork/common'
+import { IpfsApi, LoggerProvider, TestUtils } from '@cambrianprotocol/common'
 import { Pubsub } from '../pubsub.js'
 import { MsgType, QueryMessage, serialize } from '../pubsub-message.js'
 import { StreamID } from '@ceramicnetwork/streamid'

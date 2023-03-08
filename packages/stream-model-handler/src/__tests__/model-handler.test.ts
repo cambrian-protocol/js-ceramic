@@ -19,7 +19,7 @@ import {
   CeramicSigner,
   GenesisCommit,
   RawCommit,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { parse as parseDidUrl } from 'did-resolver'
 
 jest.unstable_mockModule('did-jwt', () => {

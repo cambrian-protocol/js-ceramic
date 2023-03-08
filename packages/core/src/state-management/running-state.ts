@@ -4,7 +4,7 @@ import {
   RunningStateLike,
   StreamStateSubject,
   SubscriptionSet,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { StreamID } from '@ceramicnetwork/streamid'
 import type { CID } from 'multiformats/cid'
 

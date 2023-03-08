@@ -1,5 +1,5 @@
 import type { CID } from 'multiformats/cid'
-import type { CidList, PinningBackend, PinningInfo } from '@ceramicnetwork/common'
+import type { CidList, PinningBackend, PinningInfo } from '@cambrianprotocol/common'
 import { Keyring } from '@polkadot/keyring'
 import { ApiPromise, WsProvider } from '@polkadot/api'
 import { typesBundleForPolkadot } from '@crustio/type-definitions'

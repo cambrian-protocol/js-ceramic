@@ -1,8 +1,8 @@
 import { jest } from '@jest/globals'
 import { Ceramic } from '../ceramic.js'
 import tmp from 'tmp-promise'
-import type { IpfsApi } from '@ceramicnetwork/common'
-import { TestUtils } from '@ceramicnetwork/common'
+import type { IpfsApi } from '@cambrianprotocol/common'
+import { TestUtils } from '@cambrianprotocol/common'
 import { createIPFS } from '@ceramicnetwork/ipfs-daemon'
 import { InMemoryAnchorService } from '../anchor/memory/in-memory-anchor-service.js'
 

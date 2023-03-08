@@ -1,7 +1,7 @@
 import { jest } from '@jest/globals'
 import { Dispatcher } from '../dispatcher.js'
 import { CID } from 'multiformats/cid'
-import { LoggerProvider, IpfsApi, TestUtils } from '@ceramicnetwork/common'
+import { LoggerProvider, IpfsApi, TestUtils } from '@cambrianprotocol/common'
 import { Repository, RepositoryDependencies } from '../state-management/repository.js'
 import tmp from 'tmp-promise'
 import { PinStore } from '../store/pin-store.js'

@@ -1,6 +1,6 @@
 import { Node, type MergeFunction, type TreeMetadata } from './merkle-elements.js'
 import type { CIDHolder } from './cid-holder.type.js'
-import type { AbortOptions, DiagnosticsLogger } from '@ceramicnetwork/common'
+import type { AbortOptions, DiagnosticsLogger } from '@cambrianprotocol/common'
 import type { CID } from 'multiformats/cid'
 
 type IIpfsService = {

@@ -1,6 +1,6 @@
 import { createCeramic } from '../../create-ceramic.js'
 import { createIPFS } from '@ceramicnetwork/ipfs-daemon'
-import { CeramicApi, IpfsApi } from '@ceramicnetwork/common'
+import { CeramicApi, IpfsApi } from '@cambrianprotocol/common'
 import { Signer, SignerResult } from '@polkadot/api/types'
 import * as linking from '@ceramicnetwork/blockchain-utils-linking'
 import { KeyringPair } from '@polkadot/keyring/types'

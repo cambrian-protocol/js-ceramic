@@ -1,5 +1,5 @@
 import { CID } from 'multiformats/cid'
-import { CommitType, StreamState } from '@ceramicnetwork/common'
+import { CommitType, StreamState } from '@cambrianprotocol/common'
 import { CeramicClient } from '../ceramic-http-client.js'
 import { TileDocument } from '@ceramicnetwork/stream-tile'
 

@@ -18,7 +18,7 @@ import {
   SignedCommitContainer,
   CeramicSigner,
   GenesisHeader,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { CommitID, StreamID, StreamRef } from '@ceramicnetwork/streamid'
 
 /**

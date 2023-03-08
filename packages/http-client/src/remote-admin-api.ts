@@ -1,4 +1,4 @@
-import { AdminApi, fetchJson, PinApi, NodeStatusResponse } from '@ceramicnetwork/common'
+import { AdminApi, fetchJson, PinApi, NodeStatusResponse } from '@cambrianprotocol/common'
 import { RemotePinApi } from './remote-pin-api.js'
 import { StreamID } from '@ceramicnetwork/streamid'
 import { DID } from 'dids'

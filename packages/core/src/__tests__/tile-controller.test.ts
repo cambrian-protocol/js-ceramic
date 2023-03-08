@@ -1,4 +1,4 @@
-import { IpfsApi, SyncOptions } from '@ceramicnetwork/common'
+import { IpfsApi, SyncOptions } from '@cambrianprotocol/common'
 import { createIPFS } from '@ceramicnetwork/ipfs-daemon'
 import { Ceramic } from '../ceramic.js'
 import { createCeramic } from './create-ceramic.js'

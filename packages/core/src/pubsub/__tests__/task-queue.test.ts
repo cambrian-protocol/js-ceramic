@@ -1,5 +1,5 @@
 import { jest } from '@jest/globals'
-import { TestUtils } from '@ceramicnetwork/common'
+import { TestUtils } from '@cambrianprotocol/common'
 import { TaskQueue } from '../task-queue.js'
 
 test('add synchronously', async () => {

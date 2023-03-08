@@ -1,6 +1,6 @@
 import mergeOpts from 'merge-options'
 import * as ipfsClient from 'ipfs-http-client'
-import { DiagnosticsLogger, IpfsApi } from '@ceramicnetwork/common'
+import { DiagnosticsLogger, IpfsApi } from '@cambrianprotocol/common'
 import { IpfsMode } from './daemon-config.js'
 import * as http from 'http'
 import * as https from 'https'

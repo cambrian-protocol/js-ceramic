@@ -5,7 +5,7 @@ import {
   RunningStateLike,
   StreamStateSubject,
   StreamUtils,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 
 /**
  * Maintain Stream state. Can be updated from inside, thus maintaining separate states per stream instance.

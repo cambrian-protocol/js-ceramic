@@ -1,6 +1,6 @@
 import { createController } from './create-ipfs.js'
 import { IpfsTopology } from '@ceramicnetwork/ipfs-topology'
-import { DiagnosticsLogger, LogLevel } from '@ceramicnetwork/common'
+import { DiagnosticsLogger, LogLevel } from '@cambrianprotocol/common'
 import { HealthcheckServer } from './healthcheck-server.js'
 import path from 'path'
 import os from 'os'

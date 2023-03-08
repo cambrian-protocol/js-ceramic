@@ -1,5 +1,5 @@
 import { jest } from '@jest/globals'
-import { LoggerProvider, AnchorValidator, AnchorProof } from '@ceramicnetwork/common'
+import { LoggerProvider, AnchorValidator, AnchorProof } from '@cambrianprotocol/common'
 import { CID } from 'multiformats'
 import { decode } from 'multiformats/hashes/digest'
 import * as uint8arrays from 'uint8arrays'

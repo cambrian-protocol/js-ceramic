@@ -1,4 +1,4 @@
-import { CeramicApi } from '@ceramicnetwork/common'
+import { CeramicApi } from '@cambrianprotocol/common'
 import { DID } from 'dids'
 import { Ed25519Provider } from 'key-did-provider-ed25519'
 import * as ThreeIdResolver from '@ceramicnetwork/3id-did-resolver'

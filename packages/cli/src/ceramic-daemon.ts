@@ -1,6 +1,6 @@
 import * as fs from 'fs'
 import express, { Request, Response, NextFunction } from 'express'
-import { Ceramic, CeramicConfig } from '@ceramicnetwork/core'
+import { Ceramic, CeramicConfig } from '@cambrianprotocol/core'
 import { RotatingFileStream } from '@ceramicnetwork/logger'
 import { ServiceMetrics as Metrics } from '@ceramicnetwork/observability'
 import { IpfsConnectionFactory } from './ipfs-connection-factory.js'
@@ -11,7 +11,7 @@ import {
   MultiQuery,
   StreamUtils,
   SyncOptions,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { StreamID, StreamType } from '@ceramicnetwork/streamid'
 import * as ThreeIdResolver from '@ceramicnetwork/3id-did-resolver'
 import * as KeyDidResolver from 'key-did-resolver'

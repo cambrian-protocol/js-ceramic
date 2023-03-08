@@ -1,13 +1,13 @@
 import { jest } from '@jest/globals'
 import getPort from 'get-port'
-import { IpfsApi, Page, StreamState, TestUtils } from '@ceramicnetwork/common'
+import { IpfsApi, Page, StreamState, TestUtils } from '@cambrianprotocol/common'
 import { createIPFS } from '@ceramicnetwork/ipfs-daemon'
 import {
   ModelInstanceDocument,
   ModelInstanceDocumentMetadataArgs,
 } from '@ceramicnetwork/stream-model-instance'
 import { createCeramic } from '../create-ceramic.js'
-import { Ceramic } from '@ceramicnetwork/core'
+import { Ceramic } from '@cambrianprotocol/core'
 import { CeramicDaemon, DaemonConfig } from '@ceramicnetwork/cli'
 import { CeramicClient } from '@ceramicnetwork/http-client'
 import { Model, ModelDefinition } from '@ceramicnetwork/stream-model'
@@ -18,7 +18,7 @@ import { makeDID } from '@ceramicnetwork/cli/lib/__tests__/make-did.js'
 import pgSetup from '@databases/pg-test/jest/globalSetup'
 import pgTeardown from '@databases/pg-test/jest/globalTeardown'
 import knex, { Knex } from 'knex'
-import { INDEXED_MODEL_CONFIG_TABLE_NAME } from '@ceramicnetwork/core'
+import { INDEXED_MODEL_CONFIG_TABLE_NAME } from '@cambrianprotocol/core'
 
 const CONTENT0 = { myData: 0 }
 const CONTENT1 = { myData: 1 }

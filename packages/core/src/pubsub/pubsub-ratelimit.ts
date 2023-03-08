@@ -1,5 +1,5 @@
 import PQueue from 'p-queue'
-import type { DiagnosticsLogger } from '@ceramicnetwork/common'
+import type { DiagnosticsLogger } from '@cambrianprotocol/common'
 import { empty, from, Observable } from 'rxjs'
 import type { Subscription } from 'rxjs'
 import type { PubsubMessage } from './pubsub-message.js'

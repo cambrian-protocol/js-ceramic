@@ -1,10 +1,10 @@
 import { jest } from '@jest/globals'
 import type { DatabaseIndexApi } from '../database-index-api.js'
 import type { Repository } from '../../state-management/repository.js'
-import type { Context, DiagnosticsLogger, Page } from '@ceramicnetwork/common'
+import type { Context, DiagnosticsLogger, Page } from '@cambrianprotocol/common'
 import { randomString } from '@stablelib/random'
 import { LocalIndexApi } from '../local-index-api.js'
-import { Networks } from '@ceramicnetwork/common'
+import { Networks } from '@cambrianprotocol/common'
 import { IndexingConfig } from '../build-indexing.js'
 import { HandlersMap } from '../../handlers-map.js'
 

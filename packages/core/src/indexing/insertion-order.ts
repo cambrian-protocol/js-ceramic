@@ -1,7 +1,7 @@
 import type { Knex } from 'knex'
 import * as uint8arrays from 'uint8arrays'
 import { StreamID } from '@ceramicnetwork/streamid'
-import type { BaseQuery, Page, Pagination } from '@ceramicnetwork/common'
+import type { BaseQuery, Page, Pagination } from '@cambrianprotocol/common'
 import {
   BackwardPaginationQuery,
   ForwardPaginationQuery,

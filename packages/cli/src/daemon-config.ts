@@ -2,7 +2,7 @@ import 'reflect-metadata'
 import { jsonObject, jsonMember, jsonArrayMember, TypedJSON, toJson, AnyT } from 'typedjson'
 import { readFile } from 'node:fs/promises'
 import { homedir } from 'os'
-import { AnchorServiceAuthMethods } from '@ceramicnetwork/common'
+import { AnchorServiceAuthMethods } from '@cambrianprotocol/common'
 import { StartupError } from './daemon/error-handler.js'
 import { json } from 'express'
 

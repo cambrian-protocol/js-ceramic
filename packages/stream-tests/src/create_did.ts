@@ -1,4 +1,4 @@
-import { CeramicApi } from '@ceramicnetwork/common'
+import { CeramicApi } from '@cambrianprotocol/common'
 import * as uint8arrays from 'uint8arrays'
 import * as sha256 from '@stablelib/sha256'
 import { Ed25519Provider } from 'key-did-provider-ed25519'

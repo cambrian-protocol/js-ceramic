@@ -1,6 +1,6 @@
 import { Observable } from 'rxjs'
-import type { IpfsApi } from '@ceramicnetwork/common'
-import { DiagnosticsLogger, ServiceLogger } from '@ceramicnetwork/common'
+import type { IpfsApi } from '@cambrianprotocol/common'
+import { DiagnosticsLogger, ServiceLogger } from '@cambrianprotocol/common'
 import { pipe, MonoTypeOperatorFunction } from 'rxjs'
 import { map, filter, concatMap, retryWhen, tap, delay } from 'rxjs/operators'
 import { TaskQueue } from './task-queue.js'

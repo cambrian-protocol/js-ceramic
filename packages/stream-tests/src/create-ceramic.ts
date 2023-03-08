@@ -1,6 +1,6 @@
 import mergeOpts from 'merge-options'
-import { CeramicConfig, Ceramic } from '@ceramicnetwork/core'
-import { IpfsApi } from '@ceramicnetwork/common'
+import { CeramicConfig, Ceramic } from '@cambrianprotocol/core'
+import { IpfsApi } from '@cambrianprotocol/common'
 import tmp from 'tmp-promise'
 import { createDid } from './create_did.js'
 

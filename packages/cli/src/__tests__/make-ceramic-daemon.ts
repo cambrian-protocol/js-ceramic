@@ -1,4 +1,4 @@
-import { Ceramic } from '@ceramicnetwork/core'
+import { Ceramic } from '@cambrianprotocol/core'
 import getPort from 'get-port'
 import { CeramicDaemon } from '../ceramic-daemon.js'
 import { DaemonConfig } from '../daemon-config.js'

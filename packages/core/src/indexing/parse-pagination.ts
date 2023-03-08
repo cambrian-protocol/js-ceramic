@@ -1,4 +1,4 @@
-import type { Pagination } from '@ceramicnetwork/common'
+import type { Pagination } from '@cambrianprotocol/common'
 
 export enum PaginationKind {
   FORWARD,

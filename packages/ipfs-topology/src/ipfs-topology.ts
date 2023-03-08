@@ -1,5 +1,5 @@
-import { Networks } from '@ceramicnetwork/common'
-import type { DiagnosticsLogger, IpfsApi } from '@ceramicnetwork/common'
+import { Networks } from '@cambrianprotocol/common'
+import type { DiagnosticsLogger, IpfsApi } from '@cambrianprotocol/common'
 import { Multiaddr, multiaddr } from '@multiformats/multiaddr'
 
 /**

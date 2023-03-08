@@ -4,7 +4,7 @@ import { encodeRpcMessage, EthereumAuthProvider } from '@ceramicnetwork/blockcha
 import * as sigUtils from 'eth-sig-util'
 import { ContractFactory, Contract } from '@ethersproject/contracts'
 import * as providers from '@ethersproject/providers'
-import type { CeramicApi, IpfsApi } from '@ceramicnetwork/common'
+import type { CeramicApi, IpfsApi } from '@cambrianprotocol/common'
 import { createIPFS } from '@ceramicnetwork/ipfs-daemon'
 import { happyPath, clearDid, wrongProof } from './caip-flows.js'
 import { AccountId } from 'caip'

@@ -11,7 +11,7 @@ import {
   TestUtils,
   JSONToBase64Url,
   StreamUtils,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { RunningState } from '../../state-management/running-state.js'
 import { StreamID } from '@ceramicnetwork/streamid'
 import cloneDeep from 'lodash.clonedeep'

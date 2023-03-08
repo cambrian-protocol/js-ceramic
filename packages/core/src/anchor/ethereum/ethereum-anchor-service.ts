@@ -13,7 +13,7 @@ import {
   RequestAnchorParams,
   fetchJson,
   UnreachableCaseError,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { StreamID } from '@ceramicnetwork/streamid'
 import { Observable, interval, from, concat, of, defer } from 'rxjs'
 import { concatMap, catchError, map, retry } from 'rxjs/operators'

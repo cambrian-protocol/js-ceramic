@@ -1,5 +1,5 @@
-import type { DiagnosticsLogger } from '@ceramicnetwork/common'
-import { Networks } from '@ceramicnetwork/common'
+import type { DiagnosticsLogger } from '@cambrianprotocol/common'
+import { Networks } from '@cambrianprotocol/common'
 import { buildIndexing, IndexingConfig } from '../indexing/build-indexing.js'
 import { DatabaseIndexApi, SqliteIndexApi } from '../indexing/database-index-api.js'
 

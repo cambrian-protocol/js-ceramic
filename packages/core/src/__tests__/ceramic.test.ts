@@ -8,7 +8,7 @@ import {
   GenesisCommit,
   MultiQuery,
   CeramicApi,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { TileDocument } from '@ceramicnetwork/stream-tile'
 import { StreamID, CommitID } from '@ceramicnetwork/streamid'
 import { createIPFS, swarmConnect, withFleet } from '@ceramicnetwork/ipfs-daemon'

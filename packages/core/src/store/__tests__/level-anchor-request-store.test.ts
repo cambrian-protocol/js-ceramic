@@ -1,6 +1,6 @@
 import { Model, ModelDefinition } from '@ceramicnetwork/stream-model'
 import { LevelDbStore } from '../level-db-store.js'
-import { CeramicApi, GenesisCommit, IpfsApi, Networks, TestUtils } from '@ceramicnetwork/common'
+import { CeramicApi, GenesisCommit, IpfsApi, Networks, TestUtils } from '@cambrianprotocol/common'
 import {
   AnchorRequestData,
   AnchorRequestStore,

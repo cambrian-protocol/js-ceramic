@@ -1,6 +1,6 @@
 import { default as PgBoss } from 'pg-boss'
 import type { SendOptions } from 'pg-boss'
-import type { AnchorProof, AnchorCommit, DiagnosticsLogger } from '@ceramicnetwork/common'
+import type { AnchorProof, AnchorCommit, DiagnosticsLogger } from '@cambrianprotocol/common'
 import { MerkleTreeLoader } from '../utils.js'
 import { StreamID } from '@ceramicnetwork/streamid'
 import {

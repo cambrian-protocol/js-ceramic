@@ -1,5 +1,5 @@
 import { Observable, of } from 'rxjs'
-import { StreamState, RunningStateLike } from '@ceramicnetwork/common'
+import { StreamState, RunningStateLike } from '@cambrianprotocol/common'
 import { StreamID } from '@ceramicnetwork/streamid'
 
 /**

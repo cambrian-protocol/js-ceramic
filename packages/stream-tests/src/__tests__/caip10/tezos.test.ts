@@ -1,6 +1,6 @@
 import { jest } from '@jest/globals'
 import { createIPFS } from '@ceramicnetwork/ipfs-daemon'
-import { CeramicApi, IpfsApi } from '@ceramicnetwork/common'
+import { CeramicApi, IpfsApi } from '@cambrianprotocol/common'
 import { clearDid, happyPath, wrongProof } from './caip-flows.js'
 import { TezosAuthProvider, TezosProvider } from '@ceramicnetwork/blockchain-utils-linking'
 import { InMemorySigner } from '@taquito/signer'

@@ -7,7 +7,7 @@ import * as providers from '@ethersproject/providers'
 import * as linking from '@ceramicnetwork/blockchain-utils-linking'
 import { proofs } from './fixtures.js'
 import type { LinkProof } from '@ceramicnetwork/blockchain-utils-linking'
-import { normalizeAccountId } from '@ceramicnetwork/common'
+import { normalizeAccountId } from '@cambrianprotocol/common'
 
 const CONTRACT_WALLET_ABI = [
   {

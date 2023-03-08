@@ -8,7 +8,7 @@ import {
   Stream,
   StreamUtils,
   TestUtils,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { CID } from 'multiformats/cid'
 import { decode as decodeMultiHash } from 'multiformats/hashes/digest'
 import { RunningState } from '../state-management/running-state.js'

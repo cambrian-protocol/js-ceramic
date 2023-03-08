@@ -5,7 +5,7 @@ import {
   StreamState,
   StreamStateHolder,
   StreamUtils,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { ObjectStore } from './object-store.js'
 import { IKVStore } from './ikv-store.js'
 

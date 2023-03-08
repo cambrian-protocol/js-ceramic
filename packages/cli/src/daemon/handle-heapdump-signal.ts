@@ -1,5 +1,5 @@
 import { writeHeapSnapshot } from 'node:v8'
-import type { DiagnosticsLogger } from '@ceramicnetwork/common'
+import type { DiagnosticsLogger } from '@cambrianprotocol/common'
 
 /**
  * Return +timestamp+ formatted as ISO8601 string. No milliseconds.

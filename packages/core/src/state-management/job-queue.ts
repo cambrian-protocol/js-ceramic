@@ -5,7 +5,7 @@ import {
 } from 'pg-boss'
 import Pg from 'pg'
 import { fromEvent, firstValueFrom, timeout, throwError, filter, interval, mergeMap } from 'rxjs'
-import { DiagnosticsLogger } from '@ceramicnetwork/common'
+import { DiagnosticsLogger } from '@cambrianprotocol/common'
 
 export interface Job<T extends Record<any, any>> {
   name: string

@@ -4,7 +4,7 @@ import {
   createBlockProofsListener,
 } from '@ceramicnetwork/anchor-listener'
 import type { SupportedNetwork } from '@ceramicnetwork/anchor-utils'
-import type { DiagnosticsLogger } from '@ceramicnetwork/common'
+import type { DiagnosticsLogger } from '@cambrianprotocol/common'
 import type { Provider } from '@ethersproject/providers'
 import { catchError, concatMap, defer, interval, mergeMap, Subscription } from 'rxjs'
 

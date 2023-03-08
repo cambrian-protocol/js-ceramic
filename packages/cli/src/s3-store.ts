@@ -1,4 +1,4 @@
-import { IKVStore, IKVStoreFindResult, StoreSearchParams } from '@ceramicnetwork/core'
+import { IKVStore, IKVStoreFindResult, StoreSearchParams } from '@cambrianprotocol/core'
 import LevelUp from 'levelup'
 import S3LevelDOWN from 's3leveldown'
 import toArray from 'stream-to-array'

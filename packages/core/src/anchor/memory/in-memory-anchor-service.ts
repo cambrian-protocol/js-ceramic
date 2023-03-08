@@ -11,12 +11,12 @@ import {
   AnchorCommit,
   RequestAnchorParams,
   TestUtils,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 
 import type { Dispatcher } from '../../dispatcher.js'
 import { Ceramic } from '../../ceramic.js'
 import { StreamID } from '@ceramicnetwork/streamid'
-import { DiagnosticsLogger } from '@ceramicnetwork/common'
+import { DiagnosticsLogger } from '@cambrianprotocol/common'
 import type { DagJWS } from 'dids'
 import { Utils } from '../../utils.js'
 import lru from 'lru_map'

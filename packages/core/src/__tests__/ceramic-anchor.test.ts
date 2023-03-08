@@ -1,6 +1,6 @@
 import { jest } from '@jest/globals'
 import { Ceramic } from '../ceramic.js'
-import { AnchorStatus, IpfsApi, TestUtils } from '@ceramicnetwork/common'
+import { AnchorStatus, IpfsApi, TestUtils } from '@cambrianprotocol/common'
 import { createIPFS, swarmConnect } from '@ceramicnetwork/ipfs-daemon'
 import { TileDocument } from '@ceramicnetwork/stream-tile'
 import { InMemoryAnchorService } from '../anchor/memory/in-memory-anchor-service.js'

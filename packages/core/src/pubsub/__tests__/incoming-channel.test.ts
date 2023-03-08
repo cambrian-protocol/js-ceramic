@@ -1,5 +1,5 @@
 import { jest } from '@jest/globals'
-import { IpfsApi, LoggerProvider, TestUtils } from '@ceramicnetwork/common'
+import { IpfsApi, LoggerProvider, TestUtils } from '@cambrianprotocol/common'
 import { from, firstValueFrom, lastValueFrom } from 'rxjs'
 import { delay } from 'rxjs/operators'
 import { StreamID } from '@ceramicnetwork/streamid'

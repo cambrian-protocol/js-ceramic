@@ -6,7 +6,7 @@ import {
   StreamUtils,
   SyncOptions,
   TestUtils,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { TileDocument } from '@ceramicnetwork/stream-tile'
 import { Ceramic } from '../../ceramic.js'
 import { createIPFS } from '@ceramicnetwork/ipfs-daemon'

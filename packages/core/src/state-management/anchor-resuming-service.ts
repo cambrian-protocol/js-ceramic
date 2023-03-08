@@ -1,6 +1,6 @@
 import { StreamID } from '@ceramicnetwork/streamid'
 import { AnchorRequestStoreListResult } from '../store/anchor-request-store.js'
-import { AnchorStatus, DiagnosticsLogger, LogStyle, SyncOptions } from '@ceramicnetwork/common'
+import { AnchorStatus, DiagnosticsLogger, LogStyle, SyncOptions } from '@cambrianprotocol/common'
 import { Repository } from './repository.js'
 import PQueue from 'p-queue'
 

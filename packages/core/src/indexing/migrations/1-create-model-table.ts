@@ -1,5 +1,5 @@
 import type { Knex } from 'knex'
-import { UnreachableCaseError, Networks } from '@ceramicnetwork/common'
+import { UnreachableCaseError, Networks } from '@cambrianprotocol/common'
 import { INDEXED_MODEL_CONFIG_TABLE_NAME } from '../database-index-api.js'
 import { CONFIG_TABLE_NAME } from '../config.js'
 import { addColumnPrefix } from '../column-name.util.js'

@@ -1,5 +1,5 @@
 import { type SupportedNetwork, ANCHOR_CONTRACT_ADDRESS } from '@ceramicnetwork/anchor-utils'
-import type { AnchorProof } from '@ceramicnetwork/common'
+import type { AnchorProof } from '@cambrianprotocol/common'
 import type { Block, BlockTag, Provider, Log } from '@ethersproject/providers'
 import {
   EMPTY,

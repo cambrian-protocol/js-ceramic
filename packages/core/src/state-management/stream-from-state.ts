@@ -1,4 +1,4 @@
-import { Context, StreamState, Stream } from '@ceramicnetwork/common'
+import { Context, StreamState, Stream } from '@cambrianprotocol/common'
 import { Observable } from 'rxjs'
 import { HandlersMap } from '../handlers-map.js'
 import { StateLink } from './state-link.js'

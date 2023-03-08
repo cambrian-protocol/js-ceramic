@@ -1,6 +1,6 @@
 import { createCeramic } from '../../create-ceramic.js'
 import { createIPFS } from '@ceramicnetwork/ipfs-daemon'
-import { CeramicApi, IpfsApi } from '@ceramicnetwork/common'
+import { CeramicApi, IpfsApi } from '@cambrianprotocol/common'
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore CJS-ESM Interop
 import tendermint from '@tendermint/sig'

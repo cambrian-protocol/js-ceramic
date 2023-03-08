@@ -10,7 +10,7 @@ import {
 import { asTableName } from './as-table-name.util.js'
 import { Knex } from 'knex'
 import { Model, ModelRelationsDefinition } from '@ceramicnetwork/stream-model'
-import { DiagnosticsLogger, Networks } from '@ceramicnetwork/common'
+import { DiagnosticsLogger, Networks } from '@cambrianprotocol/common'
 import { INDEXED_MODEL_CONFIG_TABLE_NAME, IndexModelArgs } from './database-index-api.js'
 import { STRUCTURES } from './migrations/cdb-schema-verification.js'
 import { CONFIG_TABLE_NAME } from './config.js'

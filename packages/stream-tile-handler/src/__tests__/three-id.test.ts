@@ -13,7 +13,7 @@ import {
   IpfsApi,
   SignedCommitContainer,
   TestUtils,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { TileDocumentHandler } from '../tile-document-handler.js'
 import { TileDocument } from '@ceramicnetwork/stream-tile'
 import cloneDeep from 'lodash.clonedeep'

@@ -8,7 +8,7 @@ import {
   UnreachableCaseError,
   base64urlToJSON,
   IpfsNodeStatus,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { StreamID } from '@ceramicnetwork/streamid'
 import { ServiceMetrics as Metrics } from '@ceramicnetwork/observability'
 import { Repository } from './state-management/repository.js'

@@ -1,7 +1,7 @@
 import { SigningTools } from '@smontero/eosio-signing-tools'
 import { BlockchainHandler } from '../blockchain-handler.js'
 import * as linking from '@ceramicnetwork/blockchain-utils-linking'
-import { normalizeAccountId } from '@ceramicnetwork/common'
+import { normalizeAccountId } from '@cambrianprotocol/common'
 
 const namespace = 'eosio'
 

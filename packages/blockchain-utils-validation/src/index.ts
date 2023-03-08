@@ -8,7 +8,7 @@ import { handler as near } from './blockchains/near.js'
 import { handler as tezos } from './blockchains/tezos.js'
 import { handler as solana } from './blockchains/solana.js'
 import { AccountId } from 'caip'
-import { normalizeAccountId } from '@ceramicnetwork/common'
+import { normalizeAccountId } from '@cambrianprotocol/common'
 
 const handlers = {
   [ethereum.namespace]: ethereum,

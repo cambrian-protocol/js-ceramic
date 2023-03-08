@@ -15,7 +15,7 @@ import {
   DiagnosticsLogger,
   StreamUtils,
   GenesisCommit,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { RunningState } from './running-state.js'
 import type { CID } from 'multiformats/cid'
 import { catchError, concatMap, takeUntil, tap } from 'rxjs/operators'

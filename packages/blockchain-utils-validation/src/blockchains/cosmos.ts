@@ -4,7 +4,7 @@ import tendermint from '@tendermint/sig'
 import { BlockchainHandler } from '../blockchain-handler.js'
 import { LinkProof, cosmos } from '@ceramicnetwork/blockchain-utils-linking'
 import * as uint8arrays from 'uint8arrays'
-import { normalizeAccountId } from '@ceramicnetwork/common'
+import { normalizeAccountId } from '@cambrianprotocol/common'
 
 const namespace = 'cosmos'
 

@@ -1,5 +1,5 @@
 import { ErrorRequestHandler, NextFunction, Request, Response } from 'express'
-import { DiagnosticsLogger } from '@ceramicnetwork/common'
+import { DiagnosticsLogger } from '@cambrianprotocol/common'
 
 export class StartupError extends Error {}
 

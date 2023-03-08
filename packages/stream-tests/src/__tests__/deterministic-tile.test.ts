@@ -1,6 +1,6 @@
-import { IpfsApi } from '@ceramicnetwork/common'
+import { IpfsApi } from '@cambrianprotocol/common'
 import { createIPFS } from '@ceramicnetwork/ipfs-daemon'
-import { CeramicApi } from '@ceramicnetwork/common'
+import { CeramicApi } from '@cambrianprotocol/common'
 import { createCeramic } from '../create-ceramic.js'
 import { TileDocument } from '@ceramicnetwork/stream-tile'
 

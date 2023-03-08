@@ -1,6 +1,6 @@
-import { IpfsApi } from '@ceramicnetwork/common'
+import { IpfsApi } from '@cambrianprotocol/common'
 import { createIPFS } from '@ceramicnetwork/ipfs-daemon'
-import { CeramicApi } from '@ceramicnetwork/common'
+import { CeramicApi } from '@cambrianprotocol/common'
 import { TileDocument } from '@ceramicnetwork/stream-tile'
 import { DID } from 'dids'
 import { Ed25519Provider } from 'key-did-provider-ed25519'

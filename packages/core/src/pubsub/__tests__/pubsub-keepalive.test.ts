@@ -1,5 +1,5 @@
 import { jest } from '@jest/globals'
-import { IpfsApi, LoggerProvider, TestUtils } from '@ceramicnetwork/common'
+import { IpfsApi, LoggerProvider, TestUtils } from '@cambrianprotocol/common'
 import { Pubsub } from '../pubsub.js'
 import { deserialize, KeepaliveMessage, MsgType } from '../pubsub-message.js'
 import { PubsubKeepalive } from '../pubsub-keepalive.js'

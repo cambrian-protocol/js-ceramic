@@ -4,8 +4,8 @@ import type {
   Page,
   PaginationQuery,
   StreamState,
-} from '@ceramicnetwork/common'
-import { StreamUtils, fetchJson } from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
+import { StreamUtils, fetchJson } from '@cambrianprotocol/common'
 import { serializeObjectForHttpPost } from './utils.js'
 
 /**

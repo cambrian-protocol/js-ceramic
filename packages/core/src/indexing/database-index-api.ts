@@ -5,7 +5,7 @@ import type {
   Page,
   DiagnosticsLogger,
   Networks,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { Knex } from 'knex'
 import type { CID } from 'multiformats/cid'
 import { ModelRelationsDefinition } from '@ceramicnetwork/stream-model'

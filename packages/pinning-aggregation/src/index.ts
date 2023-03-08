@@ -5,7 +5,7 @@ import type {
   PinningBackendStatic,
   PinningInfo,
   IpfsApi,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { toString } from 'uint8arrays/to-string'
 import * as sha256 from '@stablelib/sha256'
 

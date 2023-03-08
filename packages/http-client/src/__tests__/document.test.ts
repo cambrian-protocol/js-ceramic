@@ -1,5 +1,5 @@
 import { CID } from 'multiformats/cid'
-import { CommitType, StreamState } from '@ceramicnetwork/common'
+import { CommitType, StreamState } from '@cambrianprotocol/common'
 import { Document } from '../document.js'
 import { BehaviorSubject, firstValueFrom } from 'rxjs'
 import { filter } from 'rxjs/operators'

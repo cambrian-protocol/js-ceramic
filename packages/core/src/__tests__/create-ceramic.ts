@@ -1,5 +1,5 @@
 import { Ceramic, CeramicConfig } from '../ceramic.js'
-import { IpfsApi } from '@ceramicnetwork/common'
+import { IpfsApi } from '@cambrianprotocol/common'
 import * as uint8arrays from 'uint8arrays'
 import * as sha256 from '@stablelib/sha256'
 import tmp from 'tmp-promise'

@@ -1,6 +1,6 @@
 import type { CID } from 'multiformats/cid'
 import { MerkleTreeLoader } from '../utils.js'
-import { TestUtils } from '@ceramicnetwork/common'
+import { TestUtils } from '@cambrianprotocol/common'
 import type { IpfsService } from '../interfaces.js'
 
 const NUM_ENTRIES = 9

@@ -14,7 +14,7 @@ import {
   SyncOptions,
   UnreachableCaseError,
   UpdateOpts,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { PinStore } from '../store/pin-store.js'
 import { ExecutionQueue } from './execution-queue.js'
 import { RunningState } from './running-state.js'

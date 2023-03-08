@@ -11,7 +11,7 @@ import {
   SignedCommitContainer,
   CeramicSigner,
   GenesisHeader,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { CommitID, StreamID, StreamRef } from '@ceramicnetwork/streamid'
 import type { JSONSchema } from 'json-schema-typed/draft-2020-12'
 import { CID } from 'multiformats/cid'

@@ -3,7 +3,7 @@ import type Level from 'level-ts'
 import { IKVStore, IKVStoreFindResult, StoreSearchParams } from './ikv-store.js'
 import path from 'path'
 import * as fs from 'fs'
-import { Networks } from '@ceramicnetwork/common'
+import { Networks } from '@cambrianprotocol/common'
 
 // When Node.js imports a CJS module from ESM, it considers whole contents of `module.exports` as ESM default export.
 // 'level-ts' is a CommomJS module, which exports Level constructor as `exports.default`.

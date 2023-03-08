@@ -11,7 +11,7 @@ import {
   StreamState,
   StreamUtils,
   toLegacyAccountId,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { applyAnchorCommit } from '@ceramicnetwork/stream-handler-common'
 
 export class Caip10LinkHandler implements StreamHandler<Caip10Link> {

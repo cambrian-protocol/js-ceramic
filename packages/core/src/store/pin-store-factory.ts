@@ -1,4 +1,4 @@
-import { DiagnosticsLogger, IpfsApi, PinningBackendStatic } from '@ceramicnetwork/common'
+import { DiagnosticsLogger, IpfsApi, PinningBackendStatic } from '@cambrianprotocol/common'
 import { PinningAggregation } from '@ceramicnetwork/pinning-aggregation'
 import { PinStore } from './pin-store.js'
 import type { CID } from 'multiformats/cid'

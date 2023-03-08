@@ -1,5 +1,5 @@
 import { TileDocument } from '@ceramicnetwork/stream-tile'
-import { CeramicApi } from '@ceramicnetwork/common'
+import { CeramicApi } from '@cambrianprotocol/common'
 import { CommitID } from '@ceramicnetwork/streamid'
 import Ajv from 'ajv'
 import type { Schema } from 'ajv'

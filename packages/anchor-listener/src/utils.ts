@@ -4,7 +4,7 @@ import {
   getCidFromAnchorEventLog,
   CONTRACT_TX_TYPE,
 } from '@ceramicnetwork/anchor-utils'
-import type { AnchorProof } from '@ceramicnetwork/common'
+import type { AnchorProof } from '@cambrianprotocol/common'
 import type { Log } from '@ethersproject/providers'
 
 /**

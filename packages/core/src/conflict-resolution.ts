@@ -13,7 +13,7 @@ import {
   StreamState,
   StreamStateHolder,
   StreamUtils,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { Dispatcher } from './dispatcher.js'
 import cloneDeep from 'lodash.clonedeep'
 import { CommitID, StreamID } from '@ceramicnetwork/streamid'

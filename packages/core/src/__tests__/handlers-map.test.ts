@@ -1,6 +1,6 @@
 import { jest } from '@jest/globals'
 import { HandlersMap } from '../handlers-map.js'
-import { Stream, StreamHandler, LoggerProvider } from '@ceramicnetwork/common'
+import { Stream, StreamHandler, LoggerProvider } from '@cambrianprotocol/common'
 import { Caip10LinkHandler } from '@ceramicnetwork/stream-caip10-link-handler'
 import { ModelHandler } from '@ceramicnetwork/stream-model-handler'
 import { ModelInstanceDocumentHandler } from '@ceramicnetwork/stream-model-instance-handler'

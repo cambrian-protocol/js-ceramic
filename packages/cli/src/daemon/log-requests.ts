@@ -1,4 +1,4 @@
-import { LoggerProvider } from '@ceramicnetwork/common'
+import { LoggerProvider } from '@cambrianprotocol/common'
 import { Request, Response } from 'express'
 import morgan from 'morgan'
 

@@ -1,6 +1,6 @@
-import { fetchJson, PinApi } from '@ceramicnetwork/common'
+import { fetchJson, PinApi } from '@cambrianprotocol/common'
 import { StreamID } from '@ceramicnetwork/streamid'
-import { PublishOpts } from '@ceramicnetwork/common'
+import { PublishOpts } from '@cambrianprotocol/common'
 import { DID } from 'dids'
 import { MissingDIDError } from './utils.js'
 

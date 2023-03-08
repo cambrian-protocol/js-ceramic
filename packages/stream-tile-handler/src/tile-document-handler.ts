@@ -13,7 +13,7 @@ import {
   StreamHandler,
   StreamState,
   StreamUtils,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { StreamID } from '@ceramicnetwork/streamid'
 import { SchemaValidation } from './schema-utils.js'
 

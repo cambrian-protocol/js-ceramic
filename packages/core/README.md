@@ -18,7 +18,7 @@ $ npm install @ceramicnetwork/core
 See the [Ceramic developer site](https://developers.ceramic.network/) for more details about how to use this package.
 
 ```
-import Ceramic from '@ceramicnetwork/core'
+import Ceramic from '@cambrianprotocol/core'
 import TileDocument from '@ceramicnetwork/stream-tile'
 
 import { create as createIPFS } from 'ipfs-core'

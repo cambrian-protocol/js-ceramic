@@ -7,7 +7,7 @@ import { InsertionOrder } from '../insertion-order.js'
 import { jest } from '@jest/globals'
 import pgSetup from '@databases/pg-test/jest/globalSetup'
 import pgTeardown from '@databases/pg-test/jest/globalTeardown'
-import { LoggerProvider, Networks } from '@ceramicnetwork/common'
+import { LoggerProvider, Networks } from '@cambrianprotocol/common'
 import tmp from 'tmp-promise'
 
 const MODEL_ID = 'kjzl6cwe1jw145m7jxh4jpa6iw1ps3jcjordpo81e0w04krcpz8knxvg5ygiabd'

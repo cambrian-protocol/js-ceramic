@@ -4,7 +4,7 @@ import {
   CommitType,
   StreamState,
   StreamUtils,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import cloneDeep from 'lodash.clonedeep'
 
 /**

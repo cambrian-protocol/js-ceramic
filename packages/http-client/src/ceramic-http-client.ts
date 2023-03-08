@@ -21,7 +21,7 @@ import {
   IndexApi,
   StreamState,
   AdminApi,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { TileDocument } from '@ceramicnetwork/stream-tile'
 import { Caip10Link } from '@ceramicnetwork/stream-caip10-link'
 import { Model } from '@ceramicnetwork/stream-model'

@@ -1,5 +1,5 @@
-import { IpfsApi } from '@ceramicnetwork/common'
-import { Ceramic } from '@ceramicnetwork/core'
+import { IpfsApi } from '@cambrianprotocol/common'
+import { Ceramic } from '@cambrianprotocol/core'
 import { TileDocumentHandler } from '@ceramicnetwork/stream-tile-handler'
 
 export async function makeCeramicCore(

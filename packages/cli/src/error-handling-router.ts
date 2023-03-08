@@ -1,5 +1,5 @@
 import { Router, RouterWithAsync } from '@awaitjs/express'
-import type { DiagnosticsLogger } from '@ceramicnetwork/common'
+import type { DiagnosticsLogger } from '@cambrianprotocol/common'
 import { errorHandler } from './daemon/error-handler.js'
 
 /**

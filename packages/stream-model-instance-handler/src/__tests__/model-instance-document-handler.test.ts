@@ -23,7 +23,7 @@ import {
   CeramicSigner,
   GenesisCommit,
   RawCommit,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { parse as parseDidUrl } from 'did-resolver'
 import { StreamID } from '@ceramicnetwork/streamid'
 

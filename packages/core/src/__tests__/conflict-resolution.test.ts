@@ -2,7 +2,13 @@ import { CID } from 'multiformats/cid'
 import { decode as decodeMultiHash } from 'multiformats/hashes/digest'
 import * as uint8arrays from 'uint8arrays'
 import * as sha256 from '@stablelib/sha256'
-import { AnchorStatus, CommitType, LogEntry, StreamState, TestUtils } from '@ceramicnetwork/common'
+import {
+  AnchorStatus,
+  CommitType,
+  LogEntry,
+  StreamState,
+  TestUtils,
+} from '@cambrianprotocol/common'
 import { fetchLog, HistoryLog, pickLogToAccept } from '../conflict-resolution.js'
 import * as random from '@stablelib/random'
 import { Dispatcher } from '../dispatcher.js'

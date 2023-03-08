@@ -1,5 +1,5 @@
 import type { CompareFunction, Node } from './merkle-elements.js'
-import type { DiagnosticsLogger } from '@ceramicnetwork/common'
+import type { DiagnosticsLogger } from '@cambrianprotocol/common'
 import type { ICandidate } from './candidate.type.js'
 
 /**

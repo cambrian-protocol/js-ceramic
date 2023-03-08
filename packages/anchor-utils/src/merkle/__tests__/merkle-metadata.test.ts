@@ -1,7 +1,7 @@
 import { jest, describe, expect, test } from '@jest/globals'
 import { IpfsLeafCompare } from '../ipfs-leaf-compare.js'
 import type { ICandidate } from '../candidate.type.js'
-import type { DiagnosticsLogger } from '@ceramicnetwork/common'
+import type { DiagnosticsLogger } from '@cambrianprotocol/common'
 import type { Node } from '../merkle-elements.js'
 
 const fauxLogger = {

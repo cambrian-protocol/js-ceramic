@@ -1,6 +1,6 @@
 import { NamedTaskQueue } from './named-task-queue.js'
 import { CommitID, StreamID } from '@ceramicnetwork/streamid'
-import { DiagnosticsLogger } from '@ceramicnetwork/common'
+import { DiagnosticsLogger } from '@cambrianprotocol/common'
 import { Semaphore } from 'await-semaphore'
 import { TaskQueueLike } from '../pubsub/task-queue.js'
 

@@ -1,6 +1,6 @@
 import { DID } from 'dids'
 import { StreamID } from '@ceramicnetwork/streamid'
-import { fetchJson, TestUtils } from '@ceramicnetwork/common'
+import { fetchJson, TestUtils } from '@cambrianprotocol/common'
 import { RemoteAdminApi } from '../remote-admin-api.js'
 import { jest } from '@jest/globals'
 import { Ed25519Provider } from 'key-did-provider-ed25519'

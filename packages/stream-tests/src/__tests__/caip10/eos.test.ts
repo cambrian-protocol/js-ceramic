@@ -1,7 +1,7 @@
 import { EOSIOProvider } from '@smontero/eosio-local-provider'
 import * as linking from '@ceramicnetwork/blockchain-utils-linking'
 import { createIPFS } from '@ceramicnetwork/ipfs-daemon'
-import { IpfsApi, CeramicApi } from '@ceramicnetwork/common'
+import { IpfsApi, CeramicApi } from '@cambrianprotocol/common'
 import { createCeramic } from '../../create-ceramic.js'
 import { clearDid, happyPath, wrongProof } from './caip-flows.js'
 

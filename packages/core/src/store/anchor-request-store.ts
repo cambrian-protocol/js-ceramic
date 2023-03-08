@@ -1,7 +1,7 @@
 import { StreamID } from '@ceramicnetwork/streamid'
 import { ObjectStore } from './object-store.js'
 import { CID } from 'multiformats/cid'
-import { GenesisCommit, StreamUtils } from '@ceramicnetwork/common'
+import { GenesisCommit, StreamUtils } from '@cambrianprotocol/common'
 
 export type AnchorRequestData = {
   cid: CID

@@ -1,5 +1,5 @@
 import { CID } from 'multiformats/cid'
-import { CommitType, StreamState } from '@ceramicnetwork/common'
+import { CommitType, StreamState } from '@cambrianprotocol/common'
 import { RunningState } from '../running-state.js'
 
 const FAKE_CID1 = CID.parse('bafybeig6xv5nwphfmvcnektpnojts33jqcuam7bmye2pb54adnrtccjlsu')

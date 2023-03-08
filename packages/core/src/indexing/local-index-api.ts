@@ -5,14 +5,14 @@ import type {
   PaginationQuery,
   StreamState,
   DiagnosticsLogger,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import type { DatabaseIndexApi, IndexModelArgs } from './database-index-api.js'
 import type { Repository } from '../state-management/repository.js'
 import { IndexStreamArgs } from './database-index-api.js'
 import { StreamID } from '@ceramicnetwork/streamid'
 import { IndexingConfig } from './build-indexing.js'
 import { makeIndexApi } from '../initialization/make-index-api.js'
-import { Networks } from '@ceramicnetwork/common'
+import { Networks } from '@cambrianprotocol/common'
 import { Model } from '@ceramicnetwork/stream-model'
 import { ISyncQueryApi } from '../sync/interfaces.js'
 

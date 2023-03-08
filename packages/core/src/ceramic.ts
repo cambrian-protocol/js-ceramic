@@ -25,7 +25,7 @@ import {
   StreamState,
   AdminApi,
   NodeStatusResponse,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { ServiceMetrics as Metrics } from '@ceramicnetwork/observability'
 
 import { DID } from 'dids'

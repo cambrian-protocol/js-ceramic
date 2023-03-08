@@ -10,7 +10,7 @@ import {
   StreamState,
   LoggerProvider,
   Networks,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { LevelDbStore } from '../level-db-store.js'
 import { StreamStateStore } from '../stream-state-store.js'
 

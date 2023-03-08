@@ -4,7 +4,7 @@ import pgSetup from '@databases/pg-test/jest/globalSetup'
 import pgTeardown from '@databases/pg-test/jest/globalTeardown'
 import { of, type Observable, map } from 'rxjs'
 import { type BlockProofs, type BlocksProofsLoaderParams } from '@ceramicnetwork/anchor-listener'
-import { TestUtils, LoggerProvider } from '@ceramicnetwork/common'
+import { TestUtils, LoggerProvider } from '@cambrianprotocol/common'
 import type { Provider } from '@ethersproject/providers'
 import { REBUILD_ANCHOR_JOB, JobData, HISTORY_SYNC_JOB, SyncJobType } from '../../interfaces.js'
 

@@ -1,4 +1,4 @@
-import type { BaseQuery, Pagination } from '@ceramicnetwork/common'
+import type { BaseQuery, Pagination } from '@cambrianprotocol/common'
 import { StreamID } from '@ceramicnetwork/streamid'
 
 /**

@@ -4,7 +4,7 @@ import { BlockchainHandler } from '../blockchain-handler.js'
 import { LinkProof, tezos } from '@ceramicnetwork/blockchain-utils-linking'
 import fetch from 'cross-fetch'
 import * as uint8arrays from 'uint8arrays'
-import { normalizeAccountId } from '@ceramicnetwork/common'
+import { normalizeAccountId } from '@cambrianprotocol/common'
 
 export const ADDRESS_NOT_FOUND_ERROR = new Error(`Address not found on the Tezos blockchain`)
 export const PUBLIC_KEY_NOT_PUBLISHED_ERROR = new Error(

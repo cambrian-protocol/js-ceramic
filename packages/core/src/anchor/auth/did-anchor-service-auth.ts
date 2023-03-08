@@ -5,7 +5,7 @@ import {
   FetchOpts,
   fetchJson,
   FetchRequestParams,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import * as sha256 from '@stablelib/sha256'
 import * as uuid from '@stablelib/uuid'
 import { DagJWS } from 'dids'

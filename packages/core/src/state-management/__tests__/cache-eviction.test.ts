@@ -1,4 +1,4 @@
-import { StreamUtils, IpfsApi, TestUtils } from '@ceramicnetwork/common'
+import { StreamUtils, IpfsApi, TestUtils } from '@cambrianprotocol/common'
 import { createIPFS } from '@ceramicnetwork/ipfs-daemon'
 import { createCeramic } from '../../__tests__/create-ceramic.js'
 import { TileDocument } from '@ceramicnetwork/stream-tile'

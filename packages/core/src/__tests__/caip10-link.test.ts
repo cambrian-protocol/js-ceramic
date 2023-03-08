@@ -1,7 +1,7 @@
 import { jest } from '@jest/globals'
 import tmp from 'tmp-promise'
 import { Caip10Link } from '@ceramicnetwork/stream-caip10-link'
-import { AnchorStatus, StreamUtils, IpfsApi, TestUtils } from '@ceramicnetwork/common'
+import { AnchorStatus, StreamUtils, IpfsApi, TestUtils } from '@cambrianprotocol/common'
 import MockDate from 'mockdate'
 import type { Ceramic } from '../ceramic.js'
 import { createIPFS } from '@ceramicnetwork/ipfs-daemon'

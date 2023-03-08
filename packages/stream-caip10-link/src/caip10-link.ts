@@ -10,13 +10,13 @@ import {
   RawCommit,
   GenesisCommit,
   StreamMetadata,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import type { AuthProvider, LinkProof } from '@ceramicnetwork/blockchain-utils-linking'
 import { CommitID, StreamID, StreamRef } from '@ceramicnetwork/streamid'
 import { AccountId } from 'caip'
 import type { DID } from 'dids'
 import { parse } from 'did-resolver'
-import { normalizeAccountId } from '@ceramicnetwork/common'
+import { normalizeAccountId } from '@cambrianprotocol/common'
 import cloneDeep from 'lodash.clonedeep'
 
 const throwReadOnlyError = (): Promise<void> => {

@@ -1,6 +1,6 @@
 import { StreamID } from '@ceramicnetwork/streamid'
 import { CID } from 'multiformats/cid'
-import { UnreachableCaseError, toCID } from '@ceramicnetwork/common'
+import { UnreachableCaseError, toCID } from '@cambrianprotocol/common'
 import { ServiceMetrics as Metrics } from '@ceramicnetwork/observability'
 import * as dagCBOR from '@ipld/dag-cbor'
 import { create as createDigest } from 'multiformats/hashes/digest'

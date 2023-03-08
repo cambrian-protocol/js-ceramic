@@ -1,4 +1,4 @@
-import type { CidList, PinningBackend, PinningInfo, IpfsApi } from '@ceramicnetwork/common'
+import type { CidList, PinningBackend, PinningInfo, IpfsApi } from '@cambrianprotocol/common'
 import type { CID } from 'multiformats/cid'
 import * as sha256 from '@stablelib/sha256'
 import { toString } from 'uint8arrays/to-string'

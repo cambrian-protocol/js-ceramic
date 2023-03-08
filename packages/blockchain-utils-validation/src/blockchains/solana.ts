@@ -2,7 +2,7 @@ import { BlockchainHandler } from '../blockchain-handler.js'
 import { LinkProof } from '@ceramicnetwork/blockchain-utils-linking'
 import * as uint8arrays from 'uint8arrays'
 import { verify } from '@stablelib/ed25519'
-import { normalizeAccountId } from '@ceramicnetwork/common'
+import { normalizeAccountId } from '@cambrianprotocol/common'
 
 const verifySignature = async (
   pubKey: Uint8Array,

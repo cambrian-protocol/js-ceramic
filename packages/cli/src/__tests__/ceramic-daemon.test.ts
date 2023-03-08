@@ -1,5 +1,5 @@
 import { jest } from '@jest/globals'
-import { Ceramic } from '@ceramicnetwork/core'
+import { Ceramic } from '@cambrianprotocol/core'
 import { CeramicClient } from '@ceramicnetwork/http-client'
 import tmp from 'tmp-promise'
 import { CeramicDaemon } from '../ceramic-daemon.js'
@@ -12,7 +12,7 @@ import {
   TimedAbortSignal,
   GenesisCommit,
   TestUtils,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { TileDocument } from '@ceramicnetwork/stream-tile'
 import { firstValueFrom } from 'rxjs'
 import { filter } from 'rxjs/operators'

@@ -11,7 +11,7 @@ import {
   StreamStateSubject,
   LoadOpts,
   UpdateOpts,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { StreamID, CommitID } from '@ceramicnetwork/streamid'
 import { serializeObjectToSearchParams } from './utils.js'
 

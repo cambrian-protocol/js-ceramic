@@ -2,7 +2,7 @@ import { PubsubMessage, serialize } from '../pubsub-message.js'
 import type { SignedMessage } from '@libp2p/interface-pubsub'
 import type { PeerId } from '@libp2p/interface-peer-id'
 import * as random from '@stablelib/random'
-import { TestUtils } from '@ceramicnetwork/common'
+import { TestUtils } from '@cambrianprotocol/common'
 import { peerIdFromCID } from '@libp2p/peer-id'
 
 /**

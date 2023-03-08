@@ -8,14 +8,14 @@ import type {
   ResolverRegistry,
   VerificationMethod,
 } from 'did-resolver'
-import type { StreamState, MultiQuery, CeramicApi, LogEntry } from '@ceramicnetwork/common'
+import type { StreamState, MultiQuery, CeramicApi, LogEntry } from '@cambrianprotocol/common'
 import { TileDocument } from '@ceramicnetwork/stream-tile'
 import { LegacyResolver } from './legacyResolver.js'
 import * as u8a from 'uint8arrays'
 import { StreamID, CommitID } from '@ceramicnetwork/streamid'
 import { CID } from 'multiformats/cid'
 import { errorRepresentation, withResolutionError } from './error-representation.js'
-import { CommitType } from '@ceramicnetwork/common'
+import { CommitType } from '@cambrianprotocol/common'
 
 const DID_LD_JSON = 'application/did+ld+json'
 const DID_JSON = 'application/did+json'

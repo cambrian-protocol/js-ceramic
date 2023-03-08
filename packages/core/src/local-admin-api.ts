@@ -1,4 +1,4 @@
-import { AdminApi, NodeStatusResponse, PinApi } from '@ceramicnetwork/common'
+import { AdminApi, NodeStatusResponse, PinApi } from '@cambrianprotocol/common'
 import { StreamID } from '@ceramicnetwork/streamid'
 import { LocalIndexApi } from './indexing/local-index-api.js'
 import { SyncApi } from './sync/sync-api.js'

@@ -1,7 +1,7 @@
 import { BlockchainHandler } from '../blockchain-handler.js'
 import * as linking from '@ceramicnetwork/blockchain-utils-linking'
 import * as signingTools from '@zondax/filecoin-signing-tools'
-import { normalizeAccountId } from '@ceramicnetwork/common'
+import { normalizeAccountId } from '@cambrianprotocol/common'
 
 const namespace = 'fil'
 

@@ -12,7 +12,7 @@ import {
 } from '../interfaces.js'
 import { RebuildAnchorWorker } from '../workers/rebuild-anchor.js'
 import { SyncWorker, createHistorySyncJob } from '../workers/sync.js'
-import { LoggerProvider } from '@ceramicnetwork/common'
+import { LoggerProvider } from '@cambrianprotocol/common'
 
 const createBlockProofsListener = jest.fn(() => new Observable())
 const logger = new LoggerProvider().getDiagnosticsLogger()

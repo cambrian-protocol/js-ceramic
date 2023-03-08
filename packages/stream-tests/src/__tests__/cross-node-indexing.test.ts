@@ -7,21 +7,21 @@ import {
   StreamState,
   StreamUtils,
   TestUtils,
-} from '@ceramicnetwork/common'
+} from '@cambrianprotocol/common'
 import { createIPFS } from '@ceramicnetwork/ipfs-daemon'
 import {
   ModelInstanceDocument,
   ModelInstanceDocumentMetadataArgs,
 } from '@ceramicnetwork/stream-model-instance'
 import { createCeramic } from '../create-ceramic.js'
-import { Ceramic } from '@ceramicnetwork/core'
+import { Ceramic } from '@cambrianprotocol/core'
 import { Model, ModelDefinition } from '@ceramicnetwork/stream-model'
 import tmp from 'tmp-promise'
 import * as fs from 'fs/promises'
 import pgSetup from '@databases/pg-test/jest/globalSetup'
 import pgTeardown from '@databases/pg-test/jest/globalTeardown'
 import knex, { Knex } from 'knex'
-import { INDEXED_MODEL_CONFIG_TABLE_NAME } from '@ceramicnetwork/core'
+import { INDEXED_MODEL_CONFIG_TABLE_NAME } from '@cambrianprotocol/core'
 
 const CONTENT0 = { myData: 0 }
 const CONTENT1 = { myData: 1 }

@@ -12,7 +12,7 @@ import {
   CONTINUOUS_SYNC_JOB,
   SyncJobType,
 } from '../interfaces.js'
-import { DiagnosticsLogger } from '@ceramicnetwork/common'
+import { DiagnosticsLogger } from '@cambrianprotocol/common'
 import { SyncJobData } from '../interfaces.js'
 
 const SYNC_JOB_OPTIONS: SendOptions = {
@@ -109,7 +109,7 @@ export class SyncWorker implements Worker<SyncJobData> {
           currentBlock: blockNumber + 1,
           toBlock,
           models,
-          jobType
+          jobType,
         } as SyncJobData)
       })
     )

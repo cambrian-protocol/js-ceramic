@@ -1,5 +1,5 @@
 import { AuthProvider } from '@ceramicnetwork/blockchain-utils-linking'
-import { CeramicApi, toLegacyAccountId } from '@ceramicnetwork/common'
+import { CeramicApi, toLegacyAccountId } from '@cambrianprotocol/common'
 import { Caip10Link } from '@ceramicnetwork/stream-caip10-link'
 import { AccountId } from 'caip'
 

@@ -1,6 +1,6 @@
 import { jest } from '@jest/globals'
 import { RemoteIndexApi } from '../remote-index-api.js'
-import { CommitType, fetchJson, Page, StreamState, TestUtils } from '@ceramicnetwork/common'
+import { CommitType, fetchJson, Page, StreamState, TestUtils } from '@cambrianprotocol/common'
 import { StreamID } from '@ceramicnetwork/streamid'
 
 const FAUX_ENDPOINT = new URL('https://example.com')

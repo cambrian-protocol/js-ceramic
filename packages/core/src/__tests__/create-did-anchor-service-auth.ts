@@ -1,4 +1,4 @@
-import { CeramicApi, DiagnosticsLogger, LoggerProvider } from '@ceramicnetwork/common'
+import { CeramicApi, DiagnosticsLogger, LoggerProvider } from '@cambrianprotocol/common'
 import { DIDAnchorServiceAuth } from '../anchor/auth/did-anchor-service-auth.js'
 
 export function createDidAnchorServiceAuth(

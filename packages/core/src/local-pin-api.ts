@@ -1,6 +1,6 @@
-import { PinApi, PublishOpts, SyncOptions } from '@ceramicnetwork/common'
+import { PinApi, PublishOpts, SyncOptions } from '@cambrianprotocol/common'
 import { StreamID } from '@ceramicnetwork/streamid'
-import { DiagnosticsLogger } from '@ceramicnetwork/common'
+import { DiagnosticsLogger } from '@cambrianprotocol/common'
 import { Repository } from './state-management/repository.js'
 
 /**

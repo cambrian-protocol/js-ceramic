@@ -1,5 +1,5 @@
 import { jest } from '@jest/globals'
-import { TestUtils, LoggerProvider } from '@ceramicnetwork/common'
+import { TestUtils, LoggerProvider } from '@cambrianprotocol/common'
 import { CID } from 'multiformats/cid'
 import { RebuildAnchorWorker } from '../rebuild-anchor.js'
 import { IpfsService, RebuildAnchorJobData } from '../../interfaces.js'
