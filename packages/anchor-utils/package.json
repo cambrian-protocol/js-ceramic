@@ -1,6 +1,6 @@
 {
   "name": "@cambrianprotocol/anchor-utils",
-  "version": "1.9.0-rc.0",
+  "version": "1.10.0-rc.0",
   "description": "Ceramic anchor contract constants, interface and utilities",
   "keywords": [
     "ceramic",

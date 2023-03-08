@@ -1,6 +1,6 @@
 {
   "name": "@cambrianprotocol/blockchain-utils-validation",
-  "version": "2.18.0-rc.0",
+  "version": "2.19.0-rc.0",
   "description": "Blockchain utils for validation of linked blockchain accounts",
   "keywords": [
     "ceramic",

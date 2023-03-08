@@ -1,6 +1,6 @@
 {
   "name": "@cambrianprotocol/core",
-  "version": "2.33.0-rc.0",
+  "version": "2.34.0-rc.0",
   "description": "Typescript implementation of the Ceramic protocol",
   "keywords": [
     "Ceramic",

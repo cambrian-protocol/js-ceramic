@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0-rc.0](https://github.com/ceramicnetwork/js-ceramic/compare/@cambrianprotocol/stream-model-instance-handler@1.8.0-rc.0...@cambrianprotocol/stream-model-instance-handler@1.9.0-rc.0) (2023-03-08)
+
+**Note:** Version bump only for package @cambrianprotocol/stream-model-instance-handler
+
+
+
+
+
 # [1.8.0-rc.0](https://github.com/ceramicnetwork/js-ceramic/compare/@cambrianprotocol/stream-model-instance-handler@1.7.0-rc.0...@cambrianprotocol/stream-model-instance-handler@1.8.0-rc.0) (2023-03-08)
 
 **Note:** Version bump only for package @cambrianprotocol/stream-model-instance-handler
