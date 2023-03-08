@@ -3,6 +3,51 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.14.0-rc.0 (2023-03-08)
+
+
+### Bug Fixes
+
+* **blockchain-utils-linking,blockchain-utils-validation,canary-integration:** Disable flaky polkadot tests ([#2250](https://github.com/ceramicnetwork/js-ceramic/issues/2250)) ([2047ab4](https://github.com/ceramicnetwork/js-ceramic/commit/2047ab43cbcfea2cd0e05caa8ab32ac487073891))
+* **blockchain-utils-linking:** Add dependency on @ceramicnetwork/streamid package ([#2275](https://github.com/ceramicnetwork/js-ceramic/issues/2275)) ([1f68053](https://github.com/ceramicnetwork/js-ceramic/commit/1f68053d8254bdf01168e87235cb5c6f6806b029))
+* **blockchain-utils-linking:** pass through opts authProvider for eoaSignAccount ([#1268](https://github.com/ceramicnetwork/js-ceramic/issues/1268)) ([ae33805](https://github.com/ceramicnetwork/js-ceramic/commit/ae3380545d5d8a8dfbd62f7be0f137207769f9cc))
+* **blockchain-utils-linking:** Pin @ethersproject/providers to previous version ([#1094](https://github.com/ceramicnetwork/js-ceramic/issues/1094)) ([89fcebe](https://github.com/ceramicnetwork/js-ceramic/commit/89fcebe17f72dd7362fb8cad9c88040c177991f6))
+* **blockchain-utils-linking:** Pin version of @glif/local-managed-provider to unbreak test ([#1183](https://github.com/ceramicnetwork/js-ceramic/issues/1183)) ([b5ae20f](https://github.com/ceramicnetwork/js-ceramic/commit/b5ae20f6e1641ae767a7720c448133f22f4a7f0a))
+* **blockchain-utils-linking:** Support eip1193 provider.request ([#1795](https://github.com/ceramicnetwork/js-ceramic/issues/1795)) ([5a79eb5](https://github.com/ceramicnetwork/js-ceramic/commit/5a79eb51e35e38e38ee7eb67200f7109583eb262))
+* **common, logger:** Clean up dependencies ([#1164](https://github.com/ceramicnetwork/js-ceramic/issues/1164)) ([191ad31](https://github.com/ceramicnetwork/js-ceramic/commit/191ad310b87ac9aba97bb84b122908337f35aa11))
+* **core:** Allow fast-forward of a stream state if newer commit is anchored ([#2398](https://github.com/ceramicnetwork/js-ceramic/issues/2398)) ([d4085aa](https://github.com/ceramicnetwork/js-ceramic/commit/d4085aa3410443102d79ad7322b7aa503cab3871))
+* Fix tests by using node environment for jest ([#1212](https://github.com/ceramicnetwork/js-ceramic/issues/1212)) ([aff01c6](https://github.com/ceramicnetwork/js-ceramic/commit/aff01c6e3a8476825dd8b27201579b38943e7fca))
+* Fix tests by using node environment for jest ([#1212](https://github.com/ceramicnetwork/js-ceramic/issues/1212)) ([0f04006](https://github.com/ceramicnetwork/js-ceramic/commit/0f04006098f9028c6750c9920c4b3af758b71235))
+* Quick fix: OMG Forgot to update a snapshot file, it seems. ([7673020](https://github.com/ceramicnetwork/js-ceramic/commit/7673020a0e0a329efefcdcaf94341cb84fa16657))
+* resolve merge conflicts during merge from `main` ([#1848](https://github.com/ceramicnetwork/js-ceramic/issues/1848)) ([6772fc6](https://github.com/ceramicnetwork/js-ceramic/commit/6772fc6c61bc9daadfd3f6d6ecf3de2bb100450d))
+* Revert Caip10 upgrade ([#1895](https://github.com/ceramicnetwork/js-ceramic/issues/1895)) ([1c376ef](https://github.com/ceramicnetwork/js-ceramic/commit/1c376ef92f4e93b6da819616cef4e5c7582c97e5))
+
+
+### Features
+
+* add zcap/ocap request capability to ethereum auth provider ([#1761](https://github.com/ceramicnetwork/js-ceramic/issues/1761)) ([6057163](https://github.com/ceramicnetwork/js-ceramic/commit/6057163c1d03e3c757ec8c9c62c99cf85b27c35b))
+* **blockchain-utils-linking:** Addition of Avalanche C-Chain Support ([#1157](https://github.com/ceramicnetwork/js-ceramic/issues/1157)) ([eb90f18](https://github.com/ceramicnetwork/js-ceramic/commit/eb90f1845c5f60924636d5c45370f48401647583))
+* **blockchain-utils-linking:** default link sign message ([42a1d7e](https://github.com/ceramicnetwork/js-ceramic/commit/42a1d7e9ed04dc4ce85ea869b25a5303be5d3626))
+* **blockchain-utils-linking:** Export auth providers ([#882](https://github.com/ceramicnetwork/js-ceramic/issues/882)) ([e7e7163](https://github.com/ceramicnetwork/js-ceramic/commit/e7e71638aab512527fa335371a347a4940a9058a))
+* Bump IPFS/IPLD deps ([#2746](https://github.com/ceramicnetwork/js-ceramic/issues/2746)) ([ef23e50](https://github.com/ceramicnetwork/js-ceramic/commit/ef23e509556f32e6b1f6c1ed6f87116a3bc7e26a))
+* Cache chainId requests to providers ([#2003](https://github.com/ceramicnetwork/js-ceramic/issues/2003)) ([892d6af](https://github.com/ceramicnetwork/js-ceramic/commit/892d6af6708b32690e9eb0ae5dab6cfad3f822f6))
+* caip10 ethereum+eos integration test ([#1668](https://github.com/ceramicnetwork/js-ceramic/issues/1668)) ([4267d8b](https://github.com/ceramicnetwork/js-ceramic/commit/4267d8b31fca38a163bb009198a49e1de22b2a58)), closes [#1678](https://github.com/ceramicnetwork/js-ceramic/issues/1678)
+* Re-apply Caip version update and format change ([#1896](https://github.com/ceramicnetwork/js-ceramic/issues/1896)) ([be875de](https://github.com/ceramicnetwork/js-ceramic/commit/be875de3e9a5b54605c6d20b9610a52f8267e0ce))
+* support near protocol ([#881](https://github.com/ceramicnetwork/js-ceramic/issues/881)) ([d50f36e](https://github.com/ceramicnetwork/js-ceramic/commit/d50f36e0ecc24d26ae90a7ee4bedbe1ee006f0f7)), closes [#880](https://github.com/ceramicnetwork/js-ceramic/issues/880)
+* **tezos-blockchain-link:** initial support for linking and validating DIDs to Tezos wallets ([#1555](https://github.com/ceramicnetwork/js-ceramic/issues/1555)) ([baa6c35](https://github.com/ceramicnetwork/js-ceramic/commit/baa6c35a6a72f69380597cd260f14bc227c4fd66))
+* **tezos-blockchain-link:** linking and validating DIDs to Tezos wallets ([#1601](https://github.com/ceramicnetwork/js-ceramic/issues/1601)) ([b40709e](https://github.com/ceramicnetwork/js-ceramic/commit/b40709e465bdbf0c934ff5d51921fb7e5eb8cb18))
+* **tile-doctype:** Update Tile API ([#1180](https://github.com/ceramicnetwork/js-ceramic/issues/1180)) ([90973ee](https://github.com/ceramicnetwork/js-ceramic/commit/90973ee32352e260cb040e687720095b145b4702))
+* Transition remaining tests to pure ESM ([#2044](https://github.com/ceramicnetwork/js-ceramic/issues/2044)) ([0848eb5](https://github.com/ceramicnetwork/js-ceramic/commit/0848eb59741a2b940de9dd76df94bd8948bae637))
+* Transplant Near support ([#1739](https://github.com/ceramicnetwork/js-ceramic/issues/1739)) ([d82249a](https://github.com/ceramicnetwork/js-ceramic/commit/d82249aa4fb98257fdfe82e7d19c74902c2732cb))
+* update dids, add/register cacao verifiers ([#2452](https://github.com/ceramicnetwork/js-ceramic/issues/2452)) ([d93fedb](https://github.com/ceramicnetwork/js-ceramic/commit/d93fedbb96f17b974f7e07f78aefa67790d8930e))
+* upgrade 3id did resolver ([#1108](https://github.com/ceramicnetwork/js-ceramic/issues/1108)) ([24ef6d4](https://github.com/ceramicnetwork/js-ceramic/commit/24ef6d45c6ce1dae828447ffdaa9e57f3f5e9b00))
+* Use old caip format for proofs ([#2059](https://github.com/ceramicnetwork/js-ceramic/issues/2059)) ([429ddea](https://github.com/ceramicnetwork/js-ceramic/commit/429ddea11f9ebe7507b11812a064217c48a82be9))
+
+
+
+
+
+
 # [2.13.0](https://github.com/ceramicnetwork/js-ceramic/compare/@ceramicnetwork/blockchain-utils-linking@2.13.0-rc.0...@ceramicnetwork/blockchain-utils-linking@2.13.0) (2023-02-28)
 
 **Note:** Version bump only for package @ceramicnetwork/blockchain-utils-linking

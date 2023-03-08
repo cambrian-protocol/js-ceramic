@@ -3,6 +3,52 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.29.0-rc.0 (2023-03-08)
+
+
+### Bug Fixes
+
+* **core:** warn instead of throw on pin opts for stream crud ([#2764](https://github.com/cambrian-protocol/js-ceramic/issues/2764) ([4ecfbc1](https://github.com/cambrian-protocol/js-ceramic/commit/4ecfbc1442fa098bfacdfb7488d5d59525288650))
+* Disallow pinning and unpinning through CRUD APIs ([#2750](https://github.com/cambrian-protocol/js-ceramic/issues/2750)) ([25d9ebf](https://github.com/cambrian-protocol/js-ceramic/commit/25d9ebfdc8017274ed4dde3ed11e0248c5019f5c))
+* **stream-handler-common:** Fix loading of historical commits with CACAOs ([#2523](https://github.com/cambrian-protocol/js-ceramic/issues/2523)) ([329f1c8](https://github.com/cambrian-protocol/js-ceramic/commit/329f1c8457bd04bf9619fed0bba8f89afabd0b7e))
+* **stream-tile, stream-model-instance:** Enforce controller must be a string ([#2647](https://github.com/cambrian-protocol/js-ceramic/issues/2647)) ([7ad3e90](https://github.com/cambrian-protocol/js-ceramic/commit/7ad3e90ce0176abf19041bebdd67d90733ba2511))
+
+
+### Features
+
+* Add sep key to model stream types ([#2633](https://github.com/cambrian-protocol/js-ceramic/issues/2633)) ([36c6d5e](https://github.com/cambrian-protocol/js-ceramic/commit/36c6d5e9244cd73803ff34a512958a91242373eb))
+* Bump IPFS/IPLD deps ([#2746](https://github.com/cambrian-protocol/js-ceramic/issues/2746)) ([ef23e50](https://github.com/cambrian-protocol/js-ceramic/commit/ef23e509556f32e6b1f6c1ed6f87116a3bc7e26a))
+* **cli, core:** add sync worker flag to config file with default values ([#2757](https://github.com/cambrian-protocol/js-ceramic/issues/2757)) ([5375c88](https://github.com/cambrian-protocol/js-ceramic/commit/5375c886ecf58fa646ab3afe0796b0d2edc17af4))
+* **cli,http-client:** Add node status admin API endpoint skeleton ([#2713](https://github.com/cambrian-protocol/js-ceramic/issues/2713)) ([124b0da](https://github.com/cambrian-protocol/js-ceramic/commit/124b0da6c0c8f17ad7eb254a27eacd61b598cc98))
+* **common:** Update type definitions to support simple relations ([#2421](https://github.com/cambrian-protocol/js-ceramic/issues/2421)) ([a4c4ce3](https://github.com/cambrian-protocol/js-ceramic/commit/a4c4ce303603c2ddad3e1e51026c4a8205a91188))
+* **core,common,http-client:** Standardize AdminAPI implementations to not take DID argument. ([#2481](https://github.com/cambrian-protocol/js-ceramic/issues/2481)) ([52a8c50](https://github.com/cambrian-protocol/js-ceramic/commit/52a8c502ec1da7e920e1c83dfc0de2013fd09420))
+* **core,stream-model-handler,stream-model-instance-handler:** Rename env var for enabling ComposeDB features ([#2405](https://github.com/cambrian-protocol/js-ceramic/issues/2405)) ([f0435ac](https://github.com/cambrian-protocol/js-ceramic/commit/f0435ac38f366afc5f2115cab67d996b4095ed5f))
+* **core:** Add SyncOption to resync stream on error ([#2661](https://github.com/cambrian-protocol/js-ceramic/issues/2661)) ([d4fdf7b](https://github.com/cambrian-protocol/js-ceramic/commit/d4fdf7bb676db90178293170f9cbd07cdfeed6b9))
+* **core:** Cache recently processed pubsub messages ([#2559](https://github.com/cambrian-protocol/js-ceramic/issues/2559)) ([94d539b](https://github.com/cambrian-protocol/js-ceramic/commit/94d539b8df21305c7cb4f49cc8c144e9d4622cfd))
+* **core:** enable syncing on ceramic start ([#2693](https://github.com/cambrian-protocol/js-ceramic/issues/2693)) ([c744c6e](https://github.com/cambrian-protocol/js-ceramic/commit/c744c6e36cf7ca3af6ee1f5c20d9e3b32ad308d5))
+* **core:** Extract relation fields from MIDs and add to database, plus add filter capability to queries ([#2455](https://github.com/cambrian-protocol/js-ceramic/issues/2455)) ([fbe04b5](https://github.com/cambrian-protocol/js-ceramic/commit/fbe04b526dd662a59d355e29e68d5c741d5c0dd7))
+* **core:** initial nodeStatus output ([#2715](https://github.com/cambrian-protocol/js-ceramic/issues/2715)) ([5ba3384](https://github.com/cambrian-protocol/js-ceramic/commit/5ba3384af4b2535a72a37324e7071117ec8c9d04))
+* **core:** Load Model relations when indexing a new Model ([#2447](https://github.com/cambrian-protocol/js-ceramic/issues/2447)) ([3c87ea7](https://github.com/cambrian-protocol/js-ceramic/commit/3c87ea72ff2fa12f031ca67abe08f9b409f4486c))
+* **core:** Pinning a ModelInstanceDocument should also pin its Model ([#2319](https://github.com/cambrian-protocol/js-ceramic/issues/2319)) ([6df9ae9](https://github.com/cambrian-protocol/js-ceramic/commit/6df9ae91afaa3beea8cd70cba1aebbc0ea188dbc))
+* **core:** Throw clear error and log warning when querying a model that isn't indexed ([#2467](https://github.com/cambrian-protocol/js-ceramic/issues/2467)) ([e79f157](https://github.com/cambrian-protocol/js-ceramic/commit/e79f157b1e391c110b3acb7d638d679b517b3a44))
+* **core:** Throw when loading or updating a stream with expired CACAOs in the log ([#2574](https://github.com/cambrian-protocol/js-ceramic/issues/2574)) ([928d5e3](https://github.com/cambrian-protocol/js-ceramic/commit/928d5e338957ba361c6b33246091ac145e6740d4))
+* **core:** Validate anchors and extract timestamp information before commit application ([#2622](https://github.com/cambrian-protocol/js-ceramic/issues/2622)) ([ae3ae5e](https://github.com/cambrian-protocol/js-ceramic/commit/ae3ae5e57303f658d6fd3c332b8773ffebf98793))
+* Make SYNC_ALWAYS rewrite and revalidate local state ([#2410](https://github.com/cambrian-protocol/js-ceramic/issues/2410)) ([24caa20](https://github.com/cambrian-protocol/js-ceramic/commit/24caa202c5d7d85dba66b6f104e094316145dad5))
+* Pin access control ([#2735](https://github.com/cambrian-protocol/js-ceramic/issues/2735)) ([ee505ca](https://github.com/cambrian-protocol/js-ceramic/commit/ee505cad77113b64e93925bbbc6aa6b56de63fd2))
+* **stream-model-instance-handler:** Validate relations in MID handler ([#2587](https://github.com/cambrian-protocol/js-ceramic/issues/2587)) ([064e694](https://github.com/cambrian-protocol/js-ceramic/commit/064e694fdd6ed445cf7579806e39b9891a6c341d))
+* **stream-model-instance,stream-model-instance-handler:** Enable deterministic MIDs for models with SINGLE accountRelations ([#2356](https://github.com/cambrian-protocol/js-ceramic/issues/2356)) ([a39d5e2](https://github.com/cambrian-protocol/js-ceramic/commit/a39d5e2dc4131c7821a458861393029f45199be6))
+* **stream-model,stream-model-handler:** model definition versioning ([#2660](https://github.com/cambrian-protocol/js-ceramic/issues/2660)) ([6ccbbdd](https://github.com/cambrian-protocol/js-ceramic/commit/6ccbbdd4d9e028394c14c2c1ac755236a6c80008))
+* **stream-model:** Change Model model for indexing to use UNLOADABLE streamtype ([#2326](https://github.com/cambrian-protocol/js-ceramic/issues/2326)) ([cac8010](https://github.com/cambrian-protocol/js-ceramic/commit/cac8010afd6735af190c95025c223abe9f938f1a))
+* **stream-model:** Only allow genesis commit ([#2383](https://github.com/cambrian-protocol/js-ceramic/issues/2383)) ([f269217](https://github.com/cambrian-protocol/js-ceramic/commit/f269217b45868acb19d89a0bd62d44babc895b71))
+* **stream-model:** Remove 'unique' from Model metadata ([#2396](https://github.com/cambrian-protocol/js-ceramic/issues/2396)) ([1f0c820](https://github.com/cambrian-protocol/js-ceramic/commit/1f0c8208da8ac880168de7d47f58216c4a23223e))
+* **stream-model:** Validate relations in Model handler ([#2586](https://github.com/cambrian-protocol/js-ceramic/issues/2586)) ([af4741f](https://github.com/cambrian-protocol/js-ceramic/commit/af4741fefb4f2df6cc2db0247f89010c9ebafd06))
+* update dids, add/register cacao verifiers ([#2452](https://github.com/cambrian-protocol/js-ceramic/issues/2452)) ([d93fedb](https://github.com/cambrian-protocol/js-ceramic/commit/d93fedbb96f17b974f7e07f78aefa67790d8930e))
+
+
+
+
+
+
 # [2.28.0](https://github.com/ceramicnetwork/js-ceramic/compare/@ceramicnetwork/stream-tests@2.28.0-rc.0...@ceramicnetwork/stream-tests@2.28.0) (2023-02-28)
 
 **Note:** Version bump only for package @ceramicnetwork/stream-tests

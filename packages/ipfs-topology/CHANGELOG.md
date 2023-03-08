@@ -3,6 +3,42 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.18.0-rc.0 (2023-03-08)
+
+
+### Bug Fixes
+
+* accept multiple pubsub responses ([#1348](https://github.com/ceramicnetwork/js-ceramic/issues/1348)) ([fa2d72a](https://github.com/ceramicnetwork/js-ceramic/commit/fa2d72a5790d5994b82aeedd131fccf1b7641320))
+* add postinstall steps to dockerfile to apply multiaddr patches ([#2743](https://github.com/ceramicnetwork/js-ceramic/issues/2743)) ([67a3f9b](https://github.com/ceramicnetwork/js-ceramic/commit/67a3f9bde8d39dda8de639041bee46f04c28d204))
+* apply multiaddr patch ([#2740](https://github.com/ceramicnetwork/js-ceramic/issues/2740)) ([8002b04](https://github.com/ceramicnetwork/js-ceramic/commit/8002b044f04b388ff5d9d476c7b7b0bf943a7700))
+* bump multiaddr lib ([#2691](https://github.com/ceramicnetwork/js-ceramic/issues/2691)) ([977f1b6](https://github.com/ceramicnetwork/js-ceramic/commit/977f1b6d3c38ef06529d99fd73759ee67fb5a648))
+* **common, logger:** Clean up dependencies ([#1164](https://github.com/ceramicnetwork/js-ceramic/issues/1164)) ([191ad31](https://github.com/ceramicnetwork/js-ceramic/commit/191ad310b87ac9aba97bb84b122908337f35aa11))
+* **ipfs-topology:** Don't swarm connect to ourselves if we are in the peerlist ([#1408](https://github.com/ceramicnetwork/js-ceramic/issues/1408)) ([348d9bf](https://github.com/ceramicnetwork/js-ceramic/commit/348d9bfa9ca2fa1f5a8f2b0f94f6acea737e0feb))
+* **ipfs-topology:** Remove hard coded peers for dev-unstable network ([#1336](https://github.com/ceramicnetwork/js-ceramic/issues/1336)) ([cfb99d5](https://github.com/ceramicnetwork/js-ceramic/commit/cfb99d5f73d6ba2f3ccc97416b321de9e60d540a))
+* **ipfs-topology:** return null when no network is given for peerlist ([#1378](https://github.com/ceramicnetwork/js-ceramic/issues/1378)) ([1e5d4ef](https://github.com/ceramicnetwork/js-ceramic/commit/1e5d4ef68a871fac4413b49f9445f0b27f030468))
+* **ipfs-topology:** Update hardcoded multiaddrs for 3boxlabs clay nodes ([#2102](https://github.com/ceramicnetwork/js-ceramic/issues/2102)) ([d4199f6](https://github.com/ceramicnetwork/js-ceramic/commit/d4199f64f6a2ae0f90d15d7e621c080f5d2b1bf4))
+* **ipfs-topology:** Update hardcoded multiaddrs for mainnet ([#2129](https://github.com/ceramicnetwork/js-ceramic/issues/2129)) ([6bda925](https://github.com/ceramicnetwork/js-ceramic/commit/6bda9251c5d5c6c06f884d6f279a212de65441cc))
+* move multiaddr patch to root directory ([#2744](https://github.com/ceramicnetwork/js-ceramic/issues/2744)) ([c3390a6](https://github.com/ceramicnetwork/js-ceramic/commit/c3390a641bdc8ff81a3b1e51d134632827e04e53))
+* resolve merge conflicts during merge from `main` ([#1848](https://github.com/ceramicnetwork/js-ceramic/issues/1848)) ([6772fc6](https://github.com/ceramicnetwork/js-ceramic/commit/6772fc6c61bc9daadfd3f6d6ecf3de2bb100450d))
+* revert all multiaddr changes ([41e1485](https://github.com/ceramicnetwork/js-ceramic/commit/41e148549552ca470d964aafd255258b18da2dd0))
+
+
+### Features
+
+* Bump IPFS/IPLD deps ([#2746](https://github.com/ceramicnetwork/js-ceramic/issues/2746)) ([ef23e50](https://github.com/ceramicnetwork/js-ceramic/commit/ef23e509556f32e6b1f6c1ed6f87116a3bc7e26a))
+* **ipfs-topology:** Add bootstrap peers for dev-unstable network ([#2419](https://github.com/ceramicnetwork/js-ceramic/issues/2419)) ([cf22b93](https://github.com/ceramicnetwork/js-ceramic/commit/cf22b93e92576d89c2544336b6072393204bb327))
+* **ipfs-topology:** Do not connect to peerlist nodes at startup ([#2233](https://github.com/ceramicnetwork/js-ceramic/issues/2233)) ([3d31e63](https://github.com/ceramicnetwork/js-ceramic/commit/3d31e6348dbefb45b4bed3d595f32b70de5a3171))
+* **ipfs-topology:** map elp network to mainnet peerlists ([#1374](https://github.com/ceramicnetwork/js-ceramic/issues/1374)) ([ad71700](https://github.com/ceramicnetwork/js-ceramic/commit/ad71700923e4f8ee4baf97a88e2663063f236974))
+* **ipfs-topology:** Remove gateway multiaddrs from bootstrap list ([#2696](https://github.com/ceramicnetwork/js-ceramic/issues/2696)) ([ed1a304](https://github.com/ceramicnetwork/js-ceramic/commit/ed1a304399c98c62037915e2e7e585edd8b06d01))
+* **ipfs-topology:** update base peerlist ([#1371](https://github.com/ceramicnetwork/js-ceramic/issues/1371)) ([13c6fbf](https://github.com/ceramicnetwork/js-ceramic/commit/13c6fbf9fe833e6911fcd4fc65b89743986aa5f8))
+* **ipfs-topology:** update multiaddresses ([#1979](https://github.com/ceramicnetwork/js-ceramic/issues/1979)) ([f05b253](https://github.com/ceramicnetwork/js-ceramic/commit/f05b2534810b2863ef453f88d8815a1f738f3e3f))
+* **tile-doctype:** Update Tile API ([#1180](https://github.com/ceramicnetwork/js-ceramic/issues/1180)) ([90973ee](https://github.com/ceramicnetwork/js-ceramic/commit/90973ee32352e260cb040e687720095b145b4702))
+
+
+
+
+
+
 # [2.17.0](https://github.com/ceramicnetwork/js-ceramic/compare/@ceramicnetwork/ipfs-topology@2.17.0-rc.0...@ceramicnetwork/ipfs-topology@2.17.0) (2023-02-28)
 
 **Note:** Version bump only for package @ceramicnetwork/ipfs-topology

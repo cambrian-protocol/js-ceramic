@@ -1,6 +1,6 @@
 {
   "name": "@cambrian-ceramicnetwork/blockchain-utils-linking",
-  "version": "2.13.0",
+  "version": "2.14.0-rc.0",
   "description": "Blockchain utils for linking blockchain accounts to DID",
   "keywords": [
     "ceramic",

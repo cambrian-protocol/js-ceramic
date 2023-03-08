@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.14.0-rc.0 (2023-03-08)
+
+
+### Bug Fixes
+
+* **stream-handler-common:** Fix loading of historical commits with CACAOs ([#2523](https://github.com/ceramicnetwork/js-ceramic/issues/2523)) ([329f1c8](https://github.com/ceramicnetwork/js-ceramic/commit/329f1c8457bd04bf9619fed0bba8f89afabd0b7e))
+
+
+### Features
+
+* **core:** Validate anchors and extract timestamp information before commit application ([#2622](https://github.com/ceramicnetwork/js-ceramic/issues/2622)) ([ae3ae5e](https://github.com/ceramicnetwork/js-ceramic/commit/ae3ae5e57303f658d6fd3c332b8773ffebf98793))
+
+
+
+
+
+
 # [1.13.0](https://github.com/ceramicnetwork/js-ceramic/compare/@ceramicnetwork/stream-handler-common@1.13.0-rc.0...@ceramicnetwork/stream-handler-common@1.13.0) (2023-02-28)
 
 **Note:** Version bump only for package @ceramicnetwork/stream-handler-common

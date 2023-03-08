@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.9.0-rc.0 (2023-03-08)
+
+
+### Bug Fixes
+
+* **anchor-listener, core:** batch get logs ([#2710](https://github.com/cambrian-protocol/js-ceramic/issues/2710)) ([c6fcaae](https://github.com/cambrian-protocol/js-ceramic/commit/c6fcaae5fdd807d913432df7f238dc7fa496a0c6))
+* **core, anchor-listener:** fix hds bugs ([#2765](https://github.com/cambrian-protocol/js-ceramic/issues/2765)) ([c346c6c](https://github.com/cambrian-protocol/js-ceramic/commit/c346c6cbc34c41207fb27e12cef2e3e6fc1cbd10))
+* **core, anchor-utils, anchor-listener:** change defaults ([#2721](https://github.com/cambrian-protocol/js-ceramic/issues/2721)) ([4fd6c24](https://github.com/cambrian-protocol/js-ceramic/commit/4fd6c24cd968aa91a10145b45e7d42e74bf6781e))
+
+
+### Features
+
+* **anchor-listener,anchor-utils:** Implement anchors listener and utils packages ([d9f4390](https://github.com/cambrian-protocol/js-ceramic/commit/d9f4390ef02ee44a31b399b94a805e64883932d5))
+* **anchor-utils, anchor-listener:** Add tx type to anchor proof ([#2686](https://github.com/cambrian-protocol/js-ceramic/issues/2686)) ([2cd19fd](https://github.com/cambrian-protocol/js-ceramic/commit/2cd19fd71b5662c0fbf7a07e8678504af80629de))
+* Bump IPFS/IPLD deps ([#2746](https://github.com/cambrian-protocol/js-ceramic/issues/2746)) ([ef23e50](https://github.com/cambrian-protocol/js-ceramic/commit/ef23e509556f32e6b1f6c1ed6f87116a3bc7e26a))
+
+
+
+
+
+
 # [1.8.0](https://github.com/ceramicnetwork/js-ceramic/compare/@ceramicnetwork/anchor-listener@1.8.0-rc.0...@ceramicnetwork/anchor-listener@1.8.0) (2023-02-28)
 
 **Note:** Version bump only for package @ceramicnetwork/anchor-listener
