@@ -1,6 +1,6 @@
 {
   "name": "@cambrianprotocol/ipfs-daemon",
-  "version": "2.22.0-rc.0",
+  "version": "2.22.0",
   "description": "IPFS daemon wraps js-ipfs instance with dag-jose codec enabled",
   "keywords": [
     "ipfs",
@@ -42,7 +42,7 @@
     "test": "exit 0"
   },
   "dependencies": {
-    "@cambrianprotocol/common": "^2.27.0-rc.0",
+    "@cambrianprotocol/common": "^2.27.0",
     "@ceramicnetwork/ipfs-topology": "^2.17.0",
     "express": "^4.17.2",
     "get-port": "^6.0.0",

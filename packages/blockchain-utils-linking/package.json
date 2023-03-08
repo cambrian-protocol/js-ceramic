@@ -1,6 +1,6 @@
 {
   "name": "@cambrianprotocol/blockchain-utils-linking",
-  "version": "2.15.0-rc.0",
+  "version": "2.15.0",
   "description": "Blockchain utils for linking blockchain accounts to DID",
   "keywords": [
     "ceramic",

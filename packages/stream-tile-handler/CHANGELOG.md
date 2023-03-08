@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.24.0](https://github.com/ceramicnetwork/js-ceramic/compare/@cambrianprotocol/stream-tile-handler@2.24.0-rc.0...@cambrianprotocol/stream-tile-handler@2.24.0) (2023-03-08)
+
+**Note:** Version bump only for package @cambrianprotocol/stream-tile-handler
+
+
+
+
+
 # [2.24.0-rc.0](https://github.com/ceramicnetwork/js-ceramic/compare/@cambrianprotocol/stream-tile-handler@2.23.0-rc.0...@cambrianprotocol/stream-tile-handler@2.24.0-rc.0) (2023-03-08)
 
 **Note:** Version bump only for package @cambrianprotocol/stream-tile-handler

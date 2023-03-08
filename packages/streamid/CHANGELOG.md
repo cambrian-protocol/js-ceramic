@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.16.0](https://github.com/cambrian-protocol/js-ceramic/compare/@cambrianprotocol/streamid@2.16.0-rc.0...@cambrianprotocol/streamid@2.16.0) (2023-03-08)
+
+**Note:** Version bump only for package @cambrianprotocol/streamid
+
+
+
+
+
 # 2.16.0-rc.0 (2023-03-08)
 
 

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.27.0](https://github.com/ceramicnetwork/js-ceramic/compare/@cambrianprotocol/common@2.27.0-rc.0...@cambrianprotocol/common@2.27.0) (2023-03-08)
+
+**Note:** Version bump only for package @cambrianprotocol/common
+
+
+
+
+
 # [2.27.0-rc.0](https://github.com/ceramicnetwork/js-ceramic/compare/@cambrianprotocol/common@2.26.0-rc.0...@cambrianprotocol/common@2.27.0-rc.0) (2023-03-08)
 
 **Note:** Version bump only for package @cambrianprotocol/common

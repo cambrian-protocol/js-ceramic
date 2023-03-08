@@ -1,6 +1,6 @@
 {
   "name": "@cambrianprotocol/stream-tile-handler",
-  "version": "2.24.0-rc.0",
+  "version": "2.24.0",
   "description": "Ceramic Tile Document stream handler",
   "keywords": [
     "ceramic",
@@ -38,7 +38,7 @@
     "clean": "npx rimraf ./lib"
   },
   "dependencies": {
-    "@cambrianprotocol/common": "^2.27.0-rc.0",
+    "@cambrianprotocol/common": "^2.27.0",
     "@ceramicnetwork/stream-handler-common": "^1.13.0",
     "@ceramicnetwork/stream-tile": "^2.19.0",
     "@ceramicnetwork/streamid": "^2.14.0",
