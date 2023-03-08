@@ -38,10 +38,10 @@
     "clean": "npx rimraf ./lib"
   },
   "dependencies": {
-    "@ceramicnetwork/common": "^2.23.0",
-    "@ceramicnetwork/stream-handler-common": "^1.13.0",
-    "@ceramicnetwork/stream-model": "^1.5.0",
-    "@ceramicnetwork/streamid": "^2.14.0",
+    "@cambrianprotocol/common": "^2.23.0",
+    "@cambrianprotocol/stream-handler-common": "^1.13.0",
+    "@cambrianprotocol/stream-model": "^1.5.0",
+    "@cambrianprotocol/streamid": "^2.14.0",
     "ajv": "^8.8.2",
     "ajv-formats": "^2.1.1",
     "fast-json-patch": "^3.1.0",
@@ -49,7 +49,7 @@
     "uint8arrays": "^4.0.3"
   },
   "devDependencies": {
-    "@ceramicnetwork/3id-did-resolver": "^2.16.0",
+    "@cambrianprotocol/3id-did-resolver": "^2.16.0",
     "@didtools/cacao": "^1.0.0",
     "@ipld/dag-cbor": "^7.0.0",
     "@stablelib/sha256": "^1.0.1",
