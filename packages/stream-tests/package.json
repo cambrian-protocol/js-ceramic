@@ -1,6 +1,6 @@
 {
   "name": "@cambrianprotocol/stream-tests",
-  "version": "2.32.0-rc.0",
+  "version": "2.33.0-rc.0",
   "private": true,
   "description": "Canary integration test for Ceramic components",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@cambrianprotocol/common": "2.25.0-rc.0",
-    "@cambrianprotocol/core": "^2.34.0-rc.0",
+    "@cambrianprotocol/core": "^2.35.0-rc.0",
     "@ceramicnetwork/3id-did-resolver": "^2.16.0",
     "@ceramicnetwork/blockchain-utils-linking": "^2.13.0",
     "@ceramicnetwork/blockchain-utils-validation": "^2.15.0",
