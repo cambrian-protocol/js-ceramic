@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.18.0-rc.0](https://github.com/cambrian-protocol/js-ceramic/compare/@cambrianprotocol/pinning-ipfs-backend@2.17.0-rc.0...@cambrianprotocol/pinning-ipfs-backend@2.18.0-rc.0) (2023-03-08)
+
+**Note:** Version bump only for package @cambrianprotocol/pinning-ipfs-backend
+
+
+
+
+
 # 2.17.0-rc.0 (2023-03-08)
 
 

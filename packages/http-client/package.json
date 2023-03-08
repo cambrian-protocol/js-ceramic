@@ -1,6 +1,6 @@
 {
   "name": "@cambrianprotocol/http-client",
-  "version": "2.22.0-rc.0",
+  "version": "2.23.0-rc.0",
   "description": "An http client for the ceramic network",
   "keywords": [
     "Ceramic",
