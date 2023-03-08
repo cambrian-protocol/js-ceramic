@@ -3,6 +3,69 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.18.0-rc.0 (2023-03-08)
+
+
+### Bug Fixes
+
+* **3id-did-resolver:** compress legacy did key ([#876](https://github.com/ceramicnetwork/js-ceramic/issues/876)) ([7116cc9](https://github.com/ceramicnetwork/js-ceramic/commit/7116cc936beee9fd6f60c1d04db3600c11799257))
+* **3id-did-resolver:** Don't include ms in timestmaps ([#1287](https://github.com/ceramicnetwork/js-ceramic/issues/1287)) ([12aa2f1](https://github.com/ceramicnetwork/js-ceramic/commit/12aa2f12b61060c5a4935397f1aeae24c2fe82f4))
+* **3id-did-resolver:** Remove publicKey property ([#1288](https://github.com/ceramicnetwork/js-ceramic/issues/1288)) ([dcc07c2](https://github.com/ceramicnetwork/js-ceramic/commit/dcc07c2ff10df6acbb17340b94b88815e907e152))
+* **3id-did-resolver:** Use the correct url for json-ld context ([#1252](https://github.com/ceramicnetwork/js-ceramic/issues/1252)) ([c6734b0](https://github.com/ceramicnetwork/js-ceramic/commit/c6734b0193417bb6940d058fad8abf9799e93246))
+* **3id-did-resovler:** resolve legacy 3IDs properly ([#596](https://github.com/ceramicnetwork/js-ceramic/issues/596)) ([ee1699d](https://github.com/ceramicnetwork/js-ceramic/commit/ee1699de0ca015f9e433e6c5ae304ca52fd09a96))
+* **3id-did-resovler:** support new versionId query param ([#933](https://github.com/ceramicnetwork/js-ceramic/issues/933)) ([7b6974f](https://github.com/ceramicnetwork/js-ceramic/commit/7b6974f108747b8a67d7014d91bb3dd98fee673c))
+* **3id:** update the snapshots ([a2bd67e](https://github.com/ceramicnetwork/js-ceramic/commit/a2bd67e6490de5b570e646297741688e81218333))
+* **account-template:** fix import ([3a660d7](https://github.com/ceramicnetwork/js-ceramic/commit/3a660d72f654d7614f207587b5086888c9da6273))
+* add cache to 3idv0 resolver ([#779](https://github.com/ceramicnetwork/js-ceramic/issues/779)) ([fc0ca8c](https://github.com/ceramicnetwork/js-ceramic/commit/fc0ca8cc7cc277285bd88e95994a77f8a645a821))
+* CID version fix ([#638](https://github.com/ceramicnetwork/js-ceramic/issues/638)) ([a4f4390](https://github.com/ceramicnetwork/js-ceramic/commit/a4f4390ea561e991cae93dd26b9b122d10caef32))
+* **common, logger:** Clean up dependencies ([#1164](https://github.com/ceramicnetwork/js-ceramic/issues/1164)) ([191ad31](https://github.com/ceramicnetwork/js-ceramic/commit/191ad310b87ac9aba97bb84b122908337f35aa11))
+* Disallow pinning and unpinning through CRUD APIs ([#2750](https://github.com/ceramicnetwork/js-ceramic/issues/2750)) ([25d9ebf](https://github.com/ceramicnetwork/js-ceramic/commit/25d9ebfdc8017274ed4dde3ed11e0248c5019f5c))
+* Fix tests by using node environment for jest ([#1212](https://github.com/ceramicnetwork/js-ceramic/issues/1212)) ([0f04006](https://github.com/ceramicnetwork/js-ceramic/commit/0f04006098f9028c6750c9920c4b3af758b71235))
+* on createDocument, return copy in _docmap ([#37](https://github.com/ceramicnetwork/js-ceramic/issues/37)) ([d978e2d](https://github.com/ceramicnetwork/js-ceramic/commit/d978e2d26a5f4335a0e7b96370ea3bfa3640ae9b))
+* properly handle versions and key rotations ([#399](https://github.com/ceramicnetwork/js-ceramic/issues/399)) ([c70f04c](https://github.com/ceramicnetwork/js-ceramic/commit/c70f04c037929568e796cf4b7e523679c81818e1))
+* resolve merge conflicts during merge from `main` ([#1848](https://github.com/ceramicnetwork/js-ceramic/issues/1848)) ([6772fc6](https://github.com/ceramicnetwork/js-ceramic/commit/6772fc6c61bc9daadfd3f6d6ecf3de2bb100450d))
+* use forked did-resolver ([033ab2a](https://github.com/ceramicnetwork/js-ceramic/commit/033ab2a65ef59159f375864610fa9d5ad9f1e7ea))
+
+
+### Features
+
+* **3id-did-resolver:** did metadata resolution ([#1139](https://github.com/ceramicnetwork/js-ceramic/issues/1139)) ([818bde1](https://github.com/ceramicnetwork/js-ceramic/commit/818bde130280f248e9d5e90954c620459a2392b6))
+* **3id-did-resolver:** resolve v0 and v1 3ids ([#511](https://github.com/ceramicnetwork/js-ceramic/issues/511)) ([eedeb98](https://github.com/ceramicnetwork/js-ceramic/commit/eedeb989855540445c8d693c01a5c26e5796e5b4))
+* **3id-did-resolver:** Support new multicodec key format ([#218](https://github.com/ceramicnetwork/js-ceramic/issues/218)) ([0b944f7](https://github.com/ceramicnetwork/js-ceramic/commit/0b944f7ce03e881c0f715f8e5143f05ee14b8fc3))
+* **3id-did-resolver:** throw error on failed multiquery ([#2206](https://github.com/ceramicnetwork/js-ceramic/issues/2206)) ([68b1771](https://github.com/ceramicnetwork/js-ceramic/commit/68b17716b04f371c18890bdad6f6f29a753a4908))
+* add account link doctype ([#11](https://github.com/ceramicnetwork/js-ceramic/issues/11)) ([f9778c9](https://github.com/ceramicnetwork/js-ceramic/commit/f9778c90eaf4da2bbecfdc0d9fd6dfa0adbdb2d2))
+* Bump IPFS/IPLD deps ([#2746](https://github.com/ceramicnetwork/js-ceramic/issues/2746)) ([ef23e50](https://github.com/ceramicnetwork/js-ceramic/commit/ef23e509556f32e6b1f6c1ed6f87116a3bc7e26a))
+* **cli,http-client:** Update HTTP API to use streams terminology ([#1237](https://github.com/ceramicnetwork/js-ceramic/issues/1237)) ([6c0a142](https://github.com/ceramicnetwork/js-ceramic/commit/6c0a1421623d5e0dd0ab5bc83413fcad75b14d66))
+* **cli:** enable js-ipfs ([#231](https://github.com/ceramicnetwork/js-ceramic/issues/231)) ([84fba0c](https://github.com/ceramicnetwork/js-ceramic/commit/84fba0c7deb36a1b75646282be2e7fef3840a53a))
+* **common,core:** Split DocOpts into CreateOpts, LoadOpts, and UpdateOpts ([#1229](https://github.com/ceramicnetwork/js-ceramic/issues/1229)) ([85ccbb8](https://github.com/ceramicnetwork/js-ceramic/commit/85ccbb825f6ffca0ca2524f768b0019cd5379432))
+* **common:** Change 'sync' option to an enum and refine sync behaviors ([#1269](https://github.com/ceramicnetwork/js-ceramic/issues/1269)) ([0b652fb](https://github.com/ceramicnetwork/js-ceramic/commit/0b652fb7bc37585bd8715fcfe4bc53d1fcc709ee))
+* **common:** Update createStreamFromGenesis to take 'type' number instead of 'doctype' string ([#1286](https://github.com/ceramicnetwork/js-ceramic/issues/1286)) ([967cf11](https://github.com/ceramicnetwork/js-ceramic/commit/967cf11ec95e5cd6650bfa49fa1efd9adab85d1b))
+* **core, http-client:** Remove default DID Resolver and make apps provide via CeramicAPI.setDID() ([#1196](https://github.com/ceramicnetwork/js-ceramic/issues/1196)) ([e9b3c18](https://github.com/ceramicnetwork/js-ceramic/commit/e9b3c18d8786103589dafd268cba37694811d9b9))
+* **core,stream-tile,stream-caip10-link:** Pin streams by default ([#2025](https://github.com/ceramicnetwork/js-ceramic/issues/2025)) ([463fecd](https://github.com/ceramicnetwork/js-ceramic/commit/463fecdca5f20373d78fb7775d2ad4825c576397))
+* **core:** Rename document "versions" to document "commits" ([#618](https://github.com/ceramicnetwork/js-ceramic/issues/618)) ([03bc30a](https://github.com/ceramicnetwork/js-ceramic/commit/03bc30a017662f3001ba855d1b73e1c245d0bfef))
+* **core:** Rename several packages to remove redundant "ceramic-" prefix ([#460](https://github.com/ceramicnetwork/js-ceramic/issues/460)) ([8a86fb6](https://github.com/ceramicnetwork/js-ceramic/commit/8a86fb68b5f895f64e79a2585a5f854dd6c42088))
+* **doctype-caip10-link:** Rename 'content' to 'did' for Caip10Link ([#1216](https://github.com/ceramicnetwork/js-ceramic/issues/1216)) ([f594ff0](https://github.com/ceramicnetwork/js-ceramic/commit/f594ff081048f0966c4dc8a57a3952e4235639f8))
+* **doctype-tile,doctype-caip10-link:** Rename TileDoctype and Caip10LinkDoctype to TileDocument and Caip10Link ([#1264](https://github.com/ceramicnetwork/js-ceramic/issues/1264)) ([ed7ee3c](https://github.com/ceramicnetwork/js-ceramic/commit/ed7ee3c5fed7e93ceb5e543da967fe50052693f6))
+* document versioning ([#176](https://github.com/ceramicnetwork/js-ceramic/issues/176)) ([5c138f0](https://github.com/ceramicnetwork/js-ceramic/commit/5c138f0ecd3433ef364b9a266607263ee97526d1))
+* Drop "created" metadata property from 3id did resolution result ([#1524](https://github.com/ceramicnetwork/js-ceramic/issues/1524)) ([2dacc7b](https://github.com/ceramicnetwork/js-ceramic/commit/2dacc7b9b94ba81afc2503405fc96c32e0223f93))
+* implement initial key-did-resolver module ([#321](https://github.com/ceramicnetwork/js-ceramic/issues/321)) ([472283f](https://github.com/ceramicnetwork/js-ceramic/commit/472283f8419dd51c4725b77083df43abeb9ee387))
+* named exports ([884a6d8](https://github.com/ceramicnetwork/js-ceramic/commit/884a6d8e490f1c2c99ed99a17e9fd8c3dfb132d2))
+* Return last anchored state ([#1527](https://github.com/ceramicnetwork/js-ceramic/issues/1527)) ([bca939c](https://github.com/ceramicnetwork/js-ceramic/commit/bca939cd3da9f818a9ee30df43ea6d8716fbc1ce))
+* **streamid:** Rename DocID to StreamID ([#1195](https://github.com/ceramicnetwork/js-ceramic/issues/1195)) ([65754d1](https://github.com/ceramicnetwork/js-ceramic/commit/65754d17ecfbdae9f110c71de91120200a6b4ef2))
+* **tile-doctype:** Update Tile API ([#1180](https://github.com/ceramicnetwork/js-ceramic/issues/1180)) ([90973ee](https://github.com/ceramicnetwork/js-ceramic/commit/90973ee32352e260cb040e687720095b145b4702))
+* Transition remaining tests to pure ESM ([#2044](https://github.com/ceramicnetwork/js-ceramic/issues/2044)) ([0848eb5](https://github.com/ceramicnetwork/js-ceramic/commit/0848eb59741a2b940de9dd76df94bd8948bae637))
+* Unbundle DocID into DocID and CommitID ([#1009](https://github.com/ceramicnetwork/js-ceramic/issues/1009)) ([c2707f2](https://github.com/ceramicnetwork/js-ceramic/commit/c2707f212a9d23c88525b667944d24210e192f80))
+* upgrade 3id did resolver ([#1108](https://github.com/ceramicnetwork/js-ceramic/issues/1108)) ([24ef6d4](https://github.com/ceramicnetwork/js-ceramic/commit/24ef6d45c6ce1dae828447ffdaa9e57f3f5e9b00))
+
+
+### Reverts
+
+* Revert "chore(release):" ([26ed474](https://github.com/ceramicnetwork/js-ceramic/commit/26ed474717edaf2a276d5ffba063054f5a12e5e2))
+
+
+
+
+
 # 2.17.0-rc.0 (2023-03-08)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@cambrianprotocol/3id-did-resolver",
-  "version": "2.17.0-rc.0",
+  "version": "2.18.0-rc.0",
   "description": "DID Resolver for the 3ID method",
   "keywords": [
     "Ceramic",

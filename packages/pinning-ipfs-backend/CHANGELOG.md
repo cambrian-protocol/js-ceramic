@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.17.0-rc.0 (2023-03-08)
+
+
+### Bug Fixes
+
+* **3id-did-resovler:** resolve legacy 3IDs properly ([#596](https://github.com/cambrian-protocol/js-ceramic/issues/596)) ([ee1699d](https://github.com/cambrian-protocol/js-ceramic/commit/ee1699de0ca015f9e433e6c5ae304ca52fd09a96))
+* add postinstall steps to dockerfile to apply multiaddr patches ([#2743](https://github.com/cambrian-protocol/js-ceramic/issues/2743)) ([67a3f9b](https://github.com/cambrian-protocol/js-ceramic/commit/67a3f9bde8d39dda8de639041bee46f04c28d204))
+* apply multiaddr patch ([#2740](https://github.com/cambrian-protocol/js-ceramic/issues/2740)) ([8002b04](https://github.com/cambrian-protocol/js-ceramic/commit/8002b044f04b388ff5d9d476c7b7b0bf943a7700))
+* bump ipfs http client ([605957f](https://github.com/cambrian-protocol/js-ceramic/commit/605957fbb6183cb6ae84ea247e1f7bdb092c12fa))
+* CID version fix ([#638](https://github.com/cambrian-protocol/js-ceramic/issues/638)) ([a4f4390](https://github.com/cambrian-protocol/js-ceramic/commit/a4f4390ea561e991cae93dd26b9b122d10caef32))
+* **common, logger:** Clean up dependencies ([#1164](https://github.com/cambrian-protocol/js-ceramic/issues/1164)) ([191ad31](https://github.com/cambrian-protocol/js-ceramic/commit/191ad310b87ac9aba97bb84b122908337f35aa11))
+* **core:** ipfs subscribe, pin version ([#1454](https://github.com/cambrian-protocol/js-ceramic/issues/1454)) ([fc9c5e7](https://github.com/cambrian-protocol/js-ceramic/commit/fc9c5e77ef84be448744b92fb35d5e3bf06f264d))
+* downgrade ipfs http client ([5bc3a5e](https://github.com/cambrian-protocol/js-ceramic/commit/5bc3a5edbfa15dcef9ff6e8ec8873b86e9cd0991))
+* downgrade ipfs http client + add newer multiaddr dep ([ad3ad35](https://github.com/cambrian-protocol/js-ceramic/commit/ad3ad3588f58b181b674440786c9649086a9078a))
+* move multiaddr patch to root directory ([#2744](https://github.com/cambrian-protocol/js-ceramic/issues/2744)) ([c3390a6](https://github.com/cambrian-protocol/js-ceramic/commit/c3390a641bdc8ff81a3b1e51d134632827e04e53))
+* resolve merge conflicts during merge from `main` ([#1848](https://github.com/cambrian-protocol/js-ceramic/issues/1848)) ([6772fc6](https://github.com/cambrian-protocol/js-ceramic/commit/6772fc6c61bc9daadfd3f6d6ecf3de2bb100450d))
+* revert all multiaddr changes ([41e1485](https://github.com/cambrian-protocol/js-ceramic/commit/41e148549552ca470d964aafd255258b18da2dd0))
+
+
+### Features
+
+* Bump IPFS/IPLD deps ([#2746](https://github.com/cambrian-protocol/js-ceramic/issues/2746)) ([ef23e50](https://github.com/cambrian-protocol/js-ceramic/commit/ef23e509556f32e6b1f6c1ed6f87116a3bc7e26a))
+* **common:** Miscellaneous renames from document-based to stream-based terminology ([#1290](https://github.com/cambrian-protocol/js-ceramic/issues/1290)) ([2ca935e](https://github.com/cambrian-protocol/js-ceramic/commit/2ca935ec22e7c7fb2f8b96180a4a791264ab57d3))
+* **core:** Rename several packages to remove redundant "ceramic-" prefix ([#460](https://github.com/cambrian-protocol/js-ceramic/issues/460)) ([8a86fb6](https://github.com/cambrian-protocol/js-ceramic/commit/8a86fb68b5f895f64e79a2585a5f854dd6c42088))
+* Pass issuer to verifyJWS ([#1542](https://github.com/cambrian-protocol/js-ceramic/issues/1542)) ([3c60b0c](https://github.com/cambrian-protocol/js-ceramic/commit/3c60b0c43267e29e17fd1f676f25bf11c2ab06d5))
+* **tile-doctype:** Update Tile API ([#1180](https://github.com/cambrian-protocol/js-ceramic/issues/1180)) ([90973ee](https://github.com/cambrian-protocol/js-ceramic/commit/90973ee32352e260cb040e687720095b145b4702))
+* Transition remaining tests to pure ESM ([#2044](https://github.com/cambrian-protocol/js-ceramic/issues/2044)) ([0848eb5](https://github.com/cambrian-protocol/js-ceramic/commit/0848eb59741a2b940de9dd76df94bd8948bae637))
+* upgrade 3id did resolver ([#1108](https://github.com/cambrian-protocol/js-ceramic/issues/1108)) ([24ef6d4](https://github.com/cambrian-protocol/js-ceramic/commit/24ef6d45c6ce1dae828447ffdaa9e57f3f5e9b00))
+
+
+### Reverts
+
+* Revert "chore(release):" ([26ed474](https://github.com/cambrian-protocol/js-ceramic/commit/26ed474717edaf2a276d5ffba063054f5a12e5e2))
+
+
+
+
+
 # 2.16.0-rc.0 (2023-03-08)
 
 
