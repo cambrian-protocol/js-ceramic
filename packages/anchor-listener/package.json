@@ -1,5 +1,5 @@
 {
-  "name": "@cambrian-ceramicnetwork/anchor-listener",
+  "name": "@cambrianprotocol/anchor-listener",
   "version": "1.9.0-rc.0",
   "description": "Ceramic anchor events listener",
   "keywords": [
@@ -43,5 +43,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "b9a87476312a11399eabc86530883e90564a8145"
 }

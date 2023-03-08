@@ -1,5 +1,5 @@
 {
-  "name": "@cambrian-ceramicnetwork/cli",
+  "name": "@cambrianprotocol/cli",
   "version": "2.29.0-rc.0",
   "description": "Typescript implementation of the Ceramic CLI",
   "keywords": [
@@ -91,5 +91,5 @@
     "rxjs": "^7.5.2",
     "tmp-promise": "^3.0.3"
   },
-  "gitHead": "56e646e82ee6e9cdb0b762bbbf77b8432edce367"
+  "gitHead": "b9a87476312a11399eabc86530883e90564a8145"
 }

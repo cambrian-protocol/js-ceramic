@@ -1,5 +1,5 @@
 {
-  "name": "@cambrian-ceramicnetwork/logger",
+  "name": "@cambrianprotocol/logger",
   "version": "2.6.0-rc.0",
   "description": "Ceramic file logging utilities",
   "keywords": [
@@ -44,5 +44,6 @@
   },
   "devDependencies": {
     "@types/node": "^18.0.3"
-  }
+  },
+  "gitHead": "b9a87476312a11399eabc86530883e90564a8145"
 }

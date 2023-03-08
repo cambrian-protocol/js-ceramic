@@ -1,5 +1,5 @@
 {
-  "name": "@cambrian-ceramicnetwork/streamid",
+  "name": "@cambrianprotocol/streamid",
   "version": "2.15.0-rc.0",
   "description": "Ceramic Stream Ids",
   "keywords": [
@@ -39,5 +39,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "34eeee25597b0a60def72906c26d3afd6230aaf1"
+  "gitHead": "b9a87476312a11399eabc86530883e90564a8145"
 }

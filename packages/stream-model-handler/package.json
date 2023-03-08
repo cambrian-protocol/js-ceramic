@@ -1,5 +1,5 @@
 {
-  "name": "@cambrian-ceramicnetwork/stream-model-handler",
+  "name": "@cambrianprotocol/stream-model-handler",
   "version": "1.6.0-rc.0",
   "description": "Ceramic Model stream handler",
   "keywords": [
@@ -62,5 +62,5 @@
     "key-did-resolver": "^3.0.0",
     "multiformats": "^11.0.1"
   },
-  "gitHead": "56e646e82ee6e9cdb0b762bbbf77b8432edce367"
+  "gitHead": "b9a87476312a11399eabc86530883e90564a8145"
 }

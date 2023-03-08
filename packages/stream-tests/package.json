@@ -1,5 +1,5 @@
 {
-  "name": "@cambrian-ceramicnetwork/stream-tests",
+  "name": "@cambrianprotocol/stream-tests",
   "version": "2.29.0-rc.0",
   "private": true,
   "description": "Canary integration test for Ceramic components",

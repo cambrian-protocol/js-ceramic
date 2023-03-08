@@ -1,5 +1,5 @@
 {
-  "name": "@cambrian-ceramicnetwork/pinning-crust-backend",
+  "name": "@cambrianprotocol/pinning-crust-backend",
   "version": "2.16.0-rc.0",
   "description": "Crust Pinning backend",
   "keywords": [
@@ -47,5 +47,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "56e646e82ee6e9cdb0b762bbbf77b8432edce367"
+  "gitHead": "b9a87476312a11399eabc86530883e90564a8145"
 }

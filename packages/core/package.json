@@ -1,5 +1,5 @@
 {
-  "name": "@cambrian-ceramicnetwork/core",
+  "name": "@cambrianprotocol/core",
   "version": "2.31.0-rc.0",
   "description": "Typescript implementation of the Ceramic protocol",
   "keywords": [
@@ -97,5 +97,5 @@
     "mockdate": "^3.0.5",
     "tmp-promise": "^3.0.3"
   },
-  "gitHead": "56e646e82ee6e9cdb0b762bbbf77b8432edce367"
+  "gitHead": "b9a87476312a11399eabc86530883e90564a8145"
 }
