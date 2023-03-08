@@ -39,14 +39,14 @@
     "clean": "npx rimraf ./lib"
   },
   "dependencies": {
-    "@cambrianprotocol/common": "^2.23.0",
-    "@cambrianprotocol/streamid": "^2.14.0",
+    "@cambrianprotocol/common": "2.25.0-rc.0",
+    "@ceramicnetwork/streamid": "^2.14.0",
     "caip": "~1.1.0",
     "did-resolver": "^4.0.1",
     "lodash.clonedeep": "^4.5.0"
   },
   "devDependencies": {
-    "@cambrianprotocol/blockchain-utils-linking": "^2.13.0",
+    "@ceramicnetwork/blockchain-utils-linking": "^2.13.0",
     "dids": "^4.0.0"
   },
   "gitHead": "b9a87476312a11399eabc86530883e90564a8145"

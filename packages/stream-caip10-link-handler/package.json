@@ -39,10 +39,10 @@
     "clean": "npx rimraf ./lib"
   },
   "dependencies": {
-    "@cambrianprotocol/blockchain-utils-validation": "^2.15.0",
-    "@cambrianprotocol/common": "^2.23.0",
-    "@cambrianprotocol/stream-caip10-link": "^2.18.0",
-    "@cambrianprotocol/stream-handler-common": "^1.13.0"
+    "@ceramicnetwork/blockchain-utils-validation": "^2.15.0",
+    "@cambrianprotocol/common": "2.25.0-rc.0",
+    "@ceramicnetwork/stream-caip10-link": "^2.18.0",
+    "@ceramicnetwork/stream-handler-common": "^1.13.0"
   },
   "devDependencies": {
     "@stablelib/sha256": "^1.0.1",

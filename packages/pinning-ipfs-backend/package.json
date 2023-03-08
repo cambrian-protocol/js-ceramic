@@ -35,7 +35,7 @@
     "uint8arrays": "^4.0.3"
   },
   "devDependencies": {
-    "@cambrianprotocol/common": "^2.23.0",
+    "@cambrianprotocol/common": "2.25.0-rc.0",
     "ipfs-core-types": "^0.14.0",
     "multiformats": "^11.0.1"
   },
