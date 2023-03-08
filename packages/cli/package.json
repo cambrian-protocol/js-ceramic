@@ -1,6 +1,6 @@
 {
-  "name": "@cambrianprotocol/cli",
-  "version": "2.32.0-rc.0",
+  "name": "@cambrianprotocol/cli",  "version": "2.32.0-rc.0",
+,
   "description": "Typescript implementation of the Ceramic CLI",
   "keywords": [
     "Ceramic",
@@ -29,7 +29,7 @@
     "lib"
   ],
   "bin": {
-    "cambrian-ceramic": "./bin/cambrian-ceramic.js"
+    "ceramic": "./bin/ceramic.js"
   },
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --silent --coverage --runInBand --forceExit",
@@ -90,6 +90,6 @@
     "mockdate": "^3.0.5",
     "rxjs": "^7.5.2",
     "tmp-promise": "^3.0.3"
-  },
-  "gitHead": "b9a87476312a11399eabc86530883e90564a8145"
+  },  "gitHead": "74cf5b59fdd8fc6b2288c00fd01313b691de6e61"
+
 }
