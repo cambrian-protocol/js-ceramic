@@ -259,9 +259,9 @@ export class Repository {
       }
     })
 
-    if (opts.sync == SyncOptions.SYNC_ALWAYS || opts.sync == SyncOptions.SYNC_ON_ERROR) {
-      StreamUtils.checkForCacaoExpiration(state$.state)
-    }
+    // if (opts.sync == SyncOptions.SYNC_ALWAYS || opts.sync == SyncOptions.SYNC_ON_ERROR) {
+    //   StreamUtils.checkForCacaoExpiration(state$.state)
+    // }
     if (synced && state$.isPinned) {
       this.stateManager.markPinnedAndSynced(state$.id)
     }
