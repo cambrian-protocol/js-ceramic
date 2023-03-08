@@ -12,8 +12,8 @@ import {
   StreamUtils,
   SyncOptions,
 } from '@cambrianprotocol/common'
-import { StreamID, StreamType } from '@cambrianprotocol/streamid'
-import * as ThreeIdResolver from '@cambrianprotocol/3id-did-resolver'
+import { StreamID, StreamType } from '@ceramicnetwork/streamid'
+import * as ThreeIdResolver from '@ceramicnetwork/3id-did-resolver'
 import * as KeyDidResolver from 'key-did-resolver'
 import * as PkhDidResolver from 'pkh-did-resolver'
 import EthrDidResolver from 'ethr-did-resolver'
