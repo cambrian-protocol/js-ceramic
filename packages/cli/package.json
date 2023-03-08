@@ -1,6 +1,6 @@
 {
   "name": "@cambrianprotocol/cli",
-  "version": "2.31.0-rc.0",
+  "version": "2.32.0-rc.0",
   "description": "Typescript implementation of the Ceramic CLI",
   "keywords": [
     "Ceramic",
